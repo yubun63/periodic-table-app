@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Text3D, Sphere } from '@react-three/drei';
+import { OrbitControls, Sphere } from '@react-three/drei';
 import { Box, Paper, Text } from '@mantine/core';
 import * as THREE from 'three';
 
@@ -22,15 +22,7 @@ function Nucleus({ protons }: { protons: number }) {
       <Sphere args={[0.3]} position={[0, 0, 0]}>
         <meshStandardMaterial color="#ff6b6b" />
       </Sphere>
-      <Text3D
-        font="/fonts/helvetiker_regular.typeface.json"
-        size={0.1}
-        height={0.02}
-        position={[0, 0.5, 0]}
-      >
-        {protons}
-        <meshStandardMaterial color="#fff" />
-      </Text3D>
+      {/* 暫時移除3D文字以避免字體載入問題 */}
     </group>
   );
 }
