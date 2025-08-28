@@ -1,7 +1,7 @@
 
 // components/Calculator/AtomicStructureViewer.tsx
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Box, TextInput, Button, Text, Paper, Alert, Select, Tabs, rem } from '@mantine/core';
 import { IconAlertCircle, IconAtom, IconChartDots3, IconChartLine } from '@tabler/icons-react';
 import AtomicOrbitalsVisualization from './AtomicOrbitalsVisualization';
@@ -34,7 +34,7 @@ const AtomicStructureViewer = () => {
   const [elementsOptions, setElementsOptions] = useState<{ value: string; label: string; }[]>([]);
   const [elementsMap, setElementsMap] = useState<{[key: string]: ElementData} | null>(null);
 
-  useState(() => {
+  useEffect(() => {
     const fetchElements = async () => {
       try {
         const response = await fetch("/api/mocks/periodic-table.json");
@@ -50,7 +50,7 @@ const AtomicStructureViewer = () => {
       }
     };
     fetchElements();
-  });
+  }, []);
 
   const handleElementSelect = (value: string | null) => {
     setSelectedElement(value);
