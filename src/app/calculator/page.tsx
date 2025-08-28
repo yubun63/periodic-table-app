@@ -1,11 +1,14 @@
 'use client';
 
 import { Container, Title, Tabs, rem } from '@mantine/core';
-import { IconCalculator, IconAtom, IconScale, IconMath } from '@tabler/icons-react';
+import { IconCalculator, IconAtom, IconScale, IconMath, IconTestPipe, IconFlask, IconAtom2 } from '@tabler/icons-react';
 import MolecularWeightCalculator from '@/components/MolecularWeightCalculator';
 import StoichiometryCalculator from '@/components/StoichiometryCalculator';
 import ChemicalEquationBalancer from '@/components/ChemicalEquationBalancer';
 import AtomicStructureViewer from '@/components/AtomicStructureViewer';
+import PhCalculator from '@/components/PhCalculator';
+import DilutionCalculator from '@/components/DilutionCalculator';
+import IdealGasCalculator from '@/components/IdealGasCalculator';
 
 export default function CalculatorPage() {
   const iconStyle = { width: rem(12), height: rem(12) };
@@ -42,6 +45,24 @@ export default function CalculatorPage() {
           >
             原子結構
           </Tabs.Tab>
+          <Tabs.Tab 
+            value="ph-calculator" 
+            leftSection={<IconTestPipe style={iconStyle} />}
+          >
+            pH計算器
+          </Tabs.Tab>
+          <Tabs.Tab 
+            value="dilution-calculator" 
+            leftSection={<IconFlask style={iconStyle} />}
+          >
+            濃度稀釋
+          </Tabs.Tab>
+          <Tabs.Tab 
+            value="ideal-gas-calculator" 
+            leftSection={<IconAtom2 style={iconStyle} />}
+          >
+            理想氣體
+          </Tabs.Tab>
         </Tabs.List>
 
         <Tabs.Panel value="molecular-weight" pt="md">
@@ -58,6 +79,18 @@ export default function CalculatorPage() {
 
         <Tabs.Panel value="atomic-structure" pt="md">
           <AtomicStructureViewer />
+        </Tabs.Panel>
+
+        <Tabs.Panel value="ph-calculator" pt="md">
+          <PhCalculator />
+        </Tabs.Panel>
+
+        <Tabs.Panel value="dilution-calculator" pt="md">
+          <DilutionCalculator />
+        </Tabs.Panel>
+
+        <Tabs.Panel value="ideal-gas-calculator" pt="md">
+          <IdealGasCalculator />
         </Tabs.Panel>
       </Tabs>
     </Container>

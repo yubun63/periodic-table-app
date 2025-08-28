@@ -1,7 +1,7 @@
 
 // components/Calculator/MolecularWeightCalculator.tsx
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Box, TextInput, Button, Text, Paper, Alert } from '@mantine/core';
 import { IconAlertCircle } from '@tabler/icons-react';
 
@@ -23,7 +23,7 @@ const MolecularWeightCalculator = () => {
   } | null>(null);
 
   // Load periodic table data once
-  useState(() => {
+  useEffect(() => {
     const fetchElements = async () => {
       try {
         const response = await fetch('/api/mocks/periodic-table.json');
@@ -39,7 +39,7 @@ const MolecularWeightCalculator = () => {
       }
     };
     fetchElements();
-  });
+  }, []);
 
   const calculateMolecularWeight = () => {
     if (!elementsData) {
