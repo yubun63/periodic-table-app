@@ -1,0 +1,16 @@
+{
+  "name": "元素週期表",
+  "short_name": "元素週期表",
+  "description": "互動式元素週期表應用程式",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#228be6",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
