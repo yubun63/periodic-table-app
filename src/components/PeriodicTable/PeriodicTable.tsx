@@ -97,8 +97,15 @@ const PeriodicTable = () => {
   const { grid, lanthanides, actinides } = createPeriodicTableGrid();
 
   return (
-    <Box p="md">
-      <Text size="xl" fw={700} mb="md" ta="center">
+    <Box 
+      p="md" 
+      style={{
+        background: 'linear-gradient(135deg, #f3e7ff 0%, #e6d7ff 25%, #dcc7ff 50%, #d2b7ff 75%, #c8a7ff 100%)',
+        minHeight: '100vh',
+        borderRadius: '12px'
+      }}
+    >
+      <Text size="xl" fw={700} mb="md" ta="center" style={{ color: '#4a1a5c', textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
         元素週期表
       </Text>
       
@@ -135,15 +142,21 @@ const PeriodicTable = () => {
                         flexDirection: 'column',
                         justifyContent: 'center',
                         alignItems: 'center',
-                        transition: 'transform 0.2s ease',
-                        border: `1px solid ${theme.colors.gray[3]}`,
+                        transition: 'all 0.3s ease',
+                        border: `2px solid rgba(255,255,255,0.3)`,
+                        borderRadius: '8px',
+                        boxShadow: '0 4px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.2)',
+                        transform: 'perspective(100px) rotateX(5deg)',
+                        backgroundImage: 'linear-gradient(145deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%)',
                       }}
                       onClick={() => handleElementClick(element)}
                       onMouseEnter={(e) => {
-                        e.currentTarget.style.transform = 'scale(1.05)';
+                        e.currentTarget.style.transform = 'perspective(100px) rotateX(0deg) scale(1.08)';
+                        e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -2px 0 rgba(0,0,0,0.3)';
                       }}
                       onMouseLeave={(e) => {
-                        e.currentTarget.style.transform = 'scale(1)';
+                        e.currentTarget.style.transform = 'perspective(100px) rotateX(5deg) scale(1)';
+                        e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.2)';
                       }}
                     >
                       <Text size="xs" fw={700} c="white" ta="center">
@@ -197,15 +210,21 @@ const PeriodicTable = () => {
                       flexDirection: 'column',
                       justifyContent: 'center',
                       alignItems: 'center',
-                      transition: 'transform 0.2s ease',
-                      border: `1px solid ${theme.colors.gray[3]}`,
+                      transition: 'all 0.3s ease',
+                      border: `2px solid rgba(255,255,255,0.3)`,
+                      borderRadius: '8px',
+                      boxShadow: '0 4px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.2)',
+                      transform: 'perspective(100px) rotateX(5deg)',
+                      backgroundImage: 'linear-gradient(145deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%)',
                     }}
                     onClick={() => handleElementClick(element)}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = 'scale(1.05)';
+                      e.currentTarget.style.transform = 'perspective(100px) rotateX(0deg) scale(1.08)';
+                      e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -2px 0 rgba(0,0,0,0.3)';
                     }}
                     onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = 'scale(1)';
+                      e.currentTarget.style.transform = 'perspective(100px) rotateX(5deg) scale(1)';
+                      e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.2)';
                     }}
                   >
                     <Text size="xs" fw={700} c="white" ta="center">
@@ -253,15 +272,21 @@ const PeriodicTable = () => {
                       flexDirection: 'column',
                       justifyContent: 'center',
                       alignItems: 'center',
-                      transition: 'transform 0.2s ease',
-                      border: `1px solid ${theme.colors.gray[3]}`,
+                      transition: 'all 0.3s ease',
+                      border: `2px solid rgba(255,255,255,0.3)`,
+                      borderRadius: '8px',
+                      boxShadow: '0 4px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.2)',
+                      transform: 'perspective(100px) rotateX(5deg)',
+                      backgroundImage: 'linear-gradient(145deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%)',
                     }}
                     onClick={() => handleElementClick(element)}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = 'scale(1.05)';
+                      e.currentTarget.style.transform = 'perspective(100px) rotateX(0deg) scale(1.08)';
+                      e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.3), inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -2px 0 rgba(0,0,0,0.3)';
                     }}
                     onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = 'scale(1)';
+                      e.currentTarget.style.transform = 'perspective(100px) rotateX(5deg) scale(1)';
+                      e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.2)';
                     }}
                   >
                     <Text size="xs" fw={700} c="white" ta="center">
@@ -281,19 +306,21 @@ const PeriodicTable = () => {
         </Box>
       </Box>
 
-      <Box mt="xl">
-        <Text size="lg" fw={600} mb="md">圖例</Text>
-        <Group gap="md">
+      <Box mt="xl" p="md" style={{ backgroundColor: 'rgba(255,255,255,0.1)', borderRadius: '12px', backdropFilter: 'blur(10px)' }}>
+        <Text size="lg" fw={600} mb="md" style={{ color: '#4a1a5c', textShadow: '1px 1px 2px rgba(0,0,0,0.2)' }}>圖例</Text>
+        <Group gap="md" style={{ flexWrap: 'wrap' }}>
           <Group gap="xs">
             <Box
               w={20}
               h={20}
               style={{
                 backgroundColor: getCategoryColor('diatomic nonmetal'),
-                borderRadius: '2px'
+                borderRadius: '4px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3)',
+                border: '1px solid rgba(255,255,255,0.3)'
               }}
             />
-            <Text size="sm">非金屬</Text>
+            <Text size="sm" style={{ color: '#4a1a5c', fontWeight: 500 }}>非金屬</Text>
           </Group>
           <Group gap="xs">
             <Box
@@ -301,10 +328,12 @@ const PeriodicTable = () => {
               h={20}
               style={{
                 backgroundColor: getCategoryColor('noble gas'),
-                borderRadius: '2px'
+                borderRadius: '4px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3)',
+                border: '1px solid rgba(255,255,255,0.3)'
               }}
             />
-            <Text size="sm">惰性氣體</Text>
+            <Text size="sm" style={{ color: '#4a1a5c', fontWeight: 500 }}>惰性氣體</Text>
           </Group>
           <Group gap="xs">
             <Box
@@ -312,10 +341,25 @@ const PeriodicTable = () => {
               h={20}
               style={{
                 backgroundColor: getCategoryColor('alkali metal'),
-                borderRadius: '2px'
+                borderRadius: '4px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3)',
+                border: '1px solid rgba(255,255,255,0.3)'
               }}
             />
-            <Text size="sm">鹼金屬</Text>
+            <Text size="sm" style={{ color: '#4a1a5c', fontWeight: 500 }}>鹼金屬</Text>
+          </Group>
+          <Group gap="xs">
+            <Box
+              w={20}
+              h={20}
+              style={{
+                backgroundColor: getCategoryColor('alkaline earth metal'),
+                borderRadius: '4px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3)',
+                border: '1px solid rgba(255,255,255,0.3)'
+              }}
+            />
+            <Text size="sm" style={{ color: '#4a1a5c', fontWeight: 500 }}>鹼土金屬</Text>
           </Group>
           <Group gap="xs">
             <Box
@@ -323,10 +367,64 @@ const PeriodicTable = () => {
               h={20}
               style={{
                 backgroundColor: getCategoryColor('transition metal'),
-                borderRadius: '2px'
+                borderRadius: '4px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3)',
+                border: '1px solid rgba(255,255,255,0.3)'
               }}
             />
-            <Text size="sm">過渡金屬</Text>
+            <Text size="sm" style={{ color: '#4a1a5c', fontWeight: 500 }}>過渡金屬</Text>
+          </Group>
+          <Group gap="xs">
+            <Box
+              w={20}
+              h={20}
+              style={{
+                backgroundColor: getCategoryColor('post-transition metal'),
+                borderRadius: '4px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3)',
+                border: '1px solid rgba(255,255,255,0.3)'
+              }}
+            />
+            <Text size="sm" style={{ color: '#4a1a5c', fontWeight: 500 }}>後過渡金屬</Text>
+          </Group>
+          <Group gap="xs">
+            <Box
+              w={20}
+              h={20}
+              style={{
+                backgroundColor: getCategoryColor('metalloid'),
+                borderRadius: '4px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3)',
+                border: '1px solid rgba(255,255,255,0.3)'
+              }}
+            />
+            <Text size="sm" style={{ color: '#4a1a5c', fontWeight: 500 }}>類金屬</Text>
+          </Group>
+          <Group gap="xs">
+            <Box
+              w={20}
+              h={20}
+              style={{
+                backgroundColor: getCategoryColor('lanthanide'),
+                borderRadius: '4px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3)',
+                border: '1px solid rgba(255,255,255,0.3)'
+              }}
+            />
+            <Text size="sm" style={{ color: '#4a1a5c', fontWeight: 500 }}>鑭系元素</Text>
+          </Group>
+          <Group gap="xs">
+            <Box
+              w={20}
+              h={20}
+              style={{
+                backgroundColor: getCategoryColor('actinide'),
+                borderRadius: '4px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.3)',
+                border: '1px solid rgba(255,255,255,0.3)'
+              }}
+            />
+            <Text size="sm" style={{ color: '#4a1a5c', fontWeight: 500 }}>錒系元素</Text>
           </Group>
         </Group>
       </Box>
