@@ -18,6 +18,15 @@ export default function ElectronConfigurationChart({ element }: ElectronConfigur
   const svgRef = useRef<SVGSVGElement>(null);
   const energyDiagramRef = useRef<SVGSVGElement>(null);
 
+  // 添加安全檢查
+  if (!element || !element.orbitals || !element.electron_shells) {
+    return (
+      <Paper withBorder p="md">
+        <Text>載入元素數據中...</Text>
+      </Paper>
+    );
+  }
+
   // 軌道能級順序
   const orbitalOrder = [
     '1s', '2s', '2p', '3s', '3p', '4s', '3d', '4p', '5s', '4d', '5p', '6s', '4f', '5d', '6p', '7s', '5f', '6d', '7p'

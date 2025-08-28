@@ -121,44 +121,76 @@ function OrbitalShape({ type, position }: { type: string; position: [number, num
 function AtomModel({ element }: AtomicOrbitalsProps) {
   const { electron_shells, orbitals, number, symbol } = element;
   
-  return (
-    <Canvas camera={{ position: [5, 5, 5], fov: 75 }}>
-      <ambientLight intensity={0.5} />
-      <pointLight position={[10, 10, 10]} />
-      
-      {/* 原子核 */}
-      <Nucleus protons={number} />
-      
-      {/* 電子軌道 */}
-      {electron_shells.map((electronCount, index) => (
-        <ElectronOrbit 
-          key={index} 
-          radius={1 + index * 0.8} 
-          electrons={electronCount} 
-          shellIndex={index}
-        />
-      ))}
-      
-      {/* 軌道形狀可視化 */}
-      {Object.entries(orbitals).map(([orbitalType, count], index) => {
-        if (orbitalType === 'simplified') return null;
-        const orbitalTypeChar = orbitalType.slice(-1); // 獲取 s, p, d, f
-        return (
-          <OrbitalShape 
-            key={orbitalType} 
-            type={orbitalTypeChar} 
-            position={[index * 2 - 2, 2, 0]} 
+  try {
+    return (
+      <Canvas camera={{ position: [5, 5, 5], fov: 75 }}>
+        <ambientLight intensity={0.5} />
+        <pointLight position={[10, 10, 10]} />
+        
+        {/* 原子核 */}
+        <Nucleus protons={number} />
+        
+        {/* 電子軌道 */}
+        {electron_shells && electron_shells.map((electronCount, index) => (
+          <ElectronOrbit 
+            key={index} 
+            radius={1 + index * 0.8} 
+            electrons={electronCount} 
+            shellIndex={index}
           />
-        );
-      })}
-      
-      {/* 控制器 */}
-      <OrbitControls enableZoom enablePan enableRotate />
-    </Canvas>
-  );
+        ))}
+        
+        {/* 軌道形狀可視化 */}
+        {Object.entries(orbitals || {}).map(([orbitalType, count], index) => {
+          if (!orbitalType || orbitalType === 'simplified' || !count || count <= 0) return null;
+          const orbitalTypeChar = orbitalType.slice(-1); // 獲取 s, p, d, f
+          // 確保軌道類型有效
+          if (!['s', 'p', 'd', 'f'].includes(orbitalTypeChar)) return null;
+          return (
+            <OrbitalShape 
+              key={orbitalType} 
+              type={orbitalTypeChar} 
+              position={[index * 2 - 2, 2, 0]} 
+            />
+          );
+        })}
+        
+        {/* 控制器 */}
+        <OrbitControls enableZoom enablePan enableRotate />
+      </Canvas>
+    );
+  } catch (error) {
+    console.error('AtomModel 渲染錯誤:', error);
+    return (
+      <div style={{ 
+        height: '100%', 
+        display: 'flex', 
+        alignItems: 'center', 
+        justifyContent: 'center',
+        background: '#f8f9fa',
+        border: '1px solid #dee2e6',
+        borderRadius: '8px'
+      }}>
+        <Text c="dimmed">無法載入3D模型</Text>
+      </div>
+    );
+  }
 }
 
 export default function AtomicOrbitalsVisualization({ element }: AtomicOrbitalsProps) {
+  // 添加安全檢查
+  if (!element || !element.electron_shells || !element.orbitals) {
+    return (
+      <Paper withBorder p="md" h={400}>
+        <Text size="lg" fw={600} mb="sm">
+          載入中...
+        </Text>
+        <Box h={300} style={{ border: '1px solid #dee2e6', borderRadius: '8px' }}>
+          <Text ta="center" pt="xl">載入元素數據中</Text>
+        </Box>
+      </Paper>
+    );
+  }
   return (
     <Paper withBorder p="md" h={400}>
       <Text size="lg" fw={600} mb="sm">
