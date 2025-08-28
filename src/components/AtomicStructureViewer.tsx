@@ -2,10 +2,19 @@
 // components/Calculator/AtomicStructureViewer.tsx
 
 import { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import { Box, TextInput, Button, Text, Paper, Alert, Select, Tabs, rem } from '@mantine/core';
 import { IconAlertCircle, IconAtom, IconChartDots3, IconChartLine } from '@tabler/icons-react';
-import AtomicOrbitalsVisualization from './AtomicOrbitalsVisualization';
-import ElectronConfigurationChart from './ElectronConfigurationChart';
+
+// 動態導入以避免服務端渲染問題
+const AtomicOrbitalsVisualization = dynamic(() => import('./AtomicOrbitalsVisualization'), { 
+  ssr: false,
+  loading: () => <Text>載入3D模型中...</Text>
+});
+const ElectronConfigurationChart = dynamic(() => import('./ElectronConfigurationChart'), { 
+  ssr: false,
+  loading: () => <Text>載入圖表中...</Text>
+});
 
 interface ElementData {
   name: string;
