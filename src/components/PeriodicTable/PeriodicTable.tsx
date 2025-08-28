@@ -17,6 +17,7 @@ interface Element {
   ypos: number;
   'cpk-hex': string;
   phase: string;
+  image: string;
 }
 
 interface PeriodicTableData {
@@ -100,7 +101,6 @@ const PeriodicTable = () => {
     <Box 
       p="md" 
       style={{
-        background: 'linear-gradient(135deg, #f3e7ff 0%, #e6d7ff 25%, #dcc7ff 50%, #d2b7ff 75%, #c8a7ff 100%)',
         minHeight: '100vh',
         borderRadius: '12px'
       }}

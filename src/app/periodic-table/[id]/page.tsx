@@ -2,7 +2,7 @@
 
 import { useParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
-import { Container, Card, Text, Group, Badge, Grid, Stack, Button, Box } from '@mantine/core';
+import { Container, Card, Text, Group, Badge, Grid, Stack, Button, Box, Image } from '@mantine/core';
 import Link from 'next/link';
 
 interface Element {
@@ -17,6 +17,7 @@ interface Element {
   ypos: number;
   'cpk-hex': string;
   phase: string;
+  image: string;
 }
 
 interface PeriodicTableData {
@@ -99,30 +100,47 @@ export default function ElementDetailPage() {
         </Group>
 
         <Grid>
-          <Grid.Col span={{ base: 12, md: 4 }}>
-            <Box
-              style={{
-                backgroundColor: `#${element['cpk-hex']}`,
-                borderRadius: '8px',
-                padding: '2rem',
-                textAlign: 'center',
-                color: 'white',
-                textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
-              }}
-            >
-              <Text size="sm" fw={700}>
-                {element.number}
-              </Text>
-              <Text size="4rem" fw={900} lh={1}>
-                {element.symbol}
-              </Text>
-              <Text size="sm">
-                {element.atomic_mass.toFixed(3)}
-              </Text>
-            </Box>
+          <Grid.Col span={{ base: 12, md: 6 }}>
+            <Stack gap="md">
+              <Box
+                style={{
+                  backgroundColor: `#${element['cpk-hex']}`,
+                  borderRadius: '8px',
+                  padding: '2rem',
+                  textAlign: 'center',
+                  color: 'white',
+                  textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
+                }}
+              >
+                <Text size="sm" fw={700}>
+                  {element.number}
+                </Text>
+                <Text size="4rem" fw={900} lh={1}>
+                  {element.symbol}
+                </Text>
+                <Text size="sm">
+                  {element.atomic_mass.toFixed(3)}
+                </Text>
+              </Box>
+              
+              {element.image && (
+                <Card withBorder>
+                  <Text size="sm" fw={500} mb="xs" c="dimmed">元素圖片
+                  </Text>
+                  <Image
+                    src={element.image}
+                    alt={`${element.name} (${element.symbol})`}
+                    radius="md"
+                    fit="contain"
+                    h={200}
+                    fallbackSrc="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjVmNWY1Ii8+PHRleHQgeD0iMTUwIiB5PSIxMDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzk5OTk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+XHU1NzNhXHU3RDIwXHU2MkZCXHU1MkE5PC90ZXh0Pjwvc3ZnPg=="
+                  />
+                </Card>
+              )}
+            </Stack>
           </Grid.Col>
 
-          <Grid.Col span={{ base: 12, md: 8 }}>
+          <Grid.Col span={{ base: 12, md: 6 }}>
             <Stack gap="md">
               <div>
                 <Text size="2rem" fw={700} mb="xs">

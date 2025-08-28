@@ -1,122 +1,3004 @@
 {
   "elements": [
-    {"name": "Hydrogen", "symbol": "H", "number": 1, "atomic_mass": 1.008, "category": "diatomic nonmetal", "period": 1, "group": 1, "xpos": 1, "ypos": 1, "cpk-hex": "ffffff", "phase": "Gas"},
-    {"name": "Helium", "symbol": "He", "number": 2, "atomic_mass": 4.003, "category": "noble gas", "period": 1, "group": 18, "xpos": 18, "ypos": 1, "cpk-hex": "d9ffff", "phase": "Gas"},
-    {"name": "Lithium", "symbol": "Li", "number": 3, "atomic_mass": 6.94, "category": "alkali metal", "period": 2, "group": 1, "xpos": 1, "ypos": 2, "cpk-hex": "cc80ff", "phase": "Solid"},
-    {"name": "Beryllium", "symbol": "Be", "number": 4, "atomic_mass": 9.012, "category": "alkaline earth metal", "period": 2, "group": 2, "xpos": 2, "ypos": 2, "cpk-hex": "c2ff00", "phase": "Solid"},
-    {"name": "Boron", "symbol": "B", "number": 5, "atomic_mass": 10.81, "category": "metalloid", "period": 2, "group": 13, "xpos": 13, "ypos": 2, "cpk-hex": "ffb5b5", "phase": "Solid"},
-    {"name": "Carbon", "symbol": "C", "number": 6, "atomic_mass": 12.011, "category": "polyatomic nonmetal", "period": 2, "group": 14, "xpos": 14, "ypos": 2, "cpk-hex": "909090", "phase": "Solid"},
-    {"name": "Nitrogen", "symbol": "N", "number": 7, "atomic_mass": 14.007, "category": "diatomic nonmetal", "period": 2, "group": 15, "xpos": 15, "ypos": 2, "cpk-hex": "3050f8", "phase": "Gas"},
-    {"name": "Oxygen", "symbol": "O", "number": 8, "atomic_mass": 15.999, "category": "diatomic nonmetal", "period": 2, "group": 16, "xpos": 16, "ypos": 2, "cpk-hex": "ff0d0d", "phase": "Gas"},
-    {"name": "Fluorine", "symbol": "F", "number": 9, "atomic_mass": 18.998, "category": "diatomic nonmetal", "period": 2, "group": 17, "xpos": 17, "ypos": 2, "cpk-hex": "90e050", "phase": "Gas"},
-    {"name": "Neon", "symbol": "Ne", "number": 10, "atomic_mass": 20.18, "category": "noble gas", "period": 2, "group": 18, "xpos": 18, "ypos": 2, "cpk-hex": "b3e3f5", "phase": "Gas"},
-    {"name": "Sodium", "symbol": "Na", "number": 11, "atomic_mass": 22.99, "category": "alkali metal", "period": 3, "group": 1, "xpos": 1, "ypos": 3, "cpk-hex": "ab5cf2", "phase": "Solid"},
-    {"name": "Magnesium", "symbol": "Mg", "number": 12, "atomic_mass": 24.305, "category": "alkaline earth metal", "period": 3, "group": 2, "xpos": 2, "ypos": 3, "cpk-hex": "8aff00", "phase": "Solid"},
-    {"name": "Aluminium", "symbol": "Al", "number": 13, "atomic_mass": 26.982, "category": "post-transition metal", "period": 3, "group": 13, "xpos": 13, "ypos": 3, "cpk-hex": "bfa6a6", "phase": "Solid"},
-    {"name": "Silicon", "symbol": "Si", "number": 14, "atomic_mass": 28.085, "category": "metalloid", "period": 3, "group": 14, "xpos": 14, "ypos": 3, "cpk-hex": "f0c8a0", "phase": "Solid"},
-    {"name": "Phosphorus", "symbol": "P", "number": 15, "atomic_mass": 30.974, "category": "polyatomic nonmetal", "period": 3, "group": 15, "xpos": 15, "ypos": 3, "cpk-hex": "ff8000", "phase": "Solid"},
-    {"name": "Sulfur", "symbol": "S", "number": 16, "atomic_mass": 32.06, "category": "polyatomic nonmetal", "period": 3, "group": 16, "xpos": 16, "ypos": 3, "cpk-hex": "ffff30", "phase": "Solid"},
-    {"name": "Chlorine", "symbol": "Cl", "number": 17, "atomic_mass": 35.45, "category": "diatomic nonmetal", "period": 3, "group": 17, "xpos": 17, "ypos": 3, "cpk-hex": "1ff01f", "phase": "Gas"},
-    {"name": "Argon", "symbol": "Ar", "number": 18, "atomic_mass": 39.948, "category": "noble gas", "period": 3, "group": 18, "xpos": 18, "ypos": 3, "cpk-hex": "80d1e3", "phase": "Gas"},
-    {"name": "Potassium", "symbol": "K", "number": 19, "atomic_mass": 39.098, "category": "alkali metal", "period": 4, "group": 1, "xpos": 1, "ypos": 4, "cpk-hex": "8f40d4", "phase": "Solid"},
-    {"name": "Calcium", "symbol": "Ca", "number": 20, "atomic_mass": 40.078, "category": "alkaline earth metal", "period": 4, "group": 2, "xpos": 2, "ypos": 4, "cpk-hex": "3dff00", "phase": "Solid"},
-    {"name": "Scandium", "symbol": "Sc", "number": 21, "atomic_mass": 44.956, "category": "transition metal", "period": 4, "group": 3, "xpos": 3, "ypos": 4, "cpk-hex": "e6e6e6", "phase": "Solid"},
-    {"name": "Titanium", "symbol": "Ti", "number": 22, "atomic_mass": 47.867, "category": "transition metal", "period": 4, "group": 4, "xpos": 4, "ypos": 4, "cpk-hex": "bfc2c7", "phase": "Solid"},
-    {"name": "Vanadium", "symbol": "V", "number": 23, "atomic_mass": 50.942, "category": "transition metal", "period": 4, "group": 5, "xpos": 5, "ypos": 4, "cpk-hex": "a6a6ab", "phase": "Solid"},
-    {"name": "Chromium", "symbol": "Cr", "number": 24, "atomic_mass": 51.996, "category": "transition metal", "period": 4, "group": 6, "xpos": 6, "ypos": 4, "cpk-hex": "8a99c7", "phase": "Solid"},
-    {"name": "Manganese", "symbol": "Mn", "number": 25, "atomic_mass": 54.938, "category": "transition metal", "period": 4, "group": 7, "xpos": 7, "ypos": 4, "cpk-hex": "9c7ac7", "phase": "Solid"},
-    {"name": "Iron", "symbol": "Fe", "number": 26, "atomic_mass": 55.845, "category": "transition metal", "period": 4, "group": 8, "xpos": 8, "ypos": 4, "cpk-hex": "e06633", "phase": "Solid"},
-    {"name": "Cobalt", "symbol": "Co", "number": 27, "atomic_mass": 58.933, "category": "transition metal", "period": 4, "group": 9, "xpos": 9, "ypos": 4, "cpk-hex": "f090a0", "phase": "Solid"},
-    {"name": "Nickel", "symbol": "Ni", "number": 28, "atomic_mass": 58.693, "category": "transition metal", "period": 4, "group": 10, "xpos": 10, "ypos": 4, "cpk-hex": "50d050", "phase": "Solid"},
-    {"name": "Copper", "symbol": "Cu", "number": 29, "atomic_mass": 63.546, "category": "transition metal", "period": 4, "group": 11, "xpos": 11, "ypos": 4, "cpk-hex": "c88033", "phase": "Solid"},
-    {"name": "Zinc", "symbol": "Zn", "number": 30, "atomic_mass": 65.38, "category": "transition metal", "period": 4, "group": 12, "xpos": 12, "ypos": 4, "cpk-hex": "7d80b0", "phase": "Solid"},
-    {"name": "Gallium", "symbol": "Ga", "number": 31, "atomic_mass": 69.723, "category": "post-transition metal", "period": 4, "group": 13, "xpos": 13, "ypos": 4, "cpk-hex": "c28f8f", "phase": "Solid"},
-    {"name": "Germanium", "symbol": "Ge", "number": 32, "atomic_mass": 72.63, "category": "metalloid", "period": 4, "group": 14, "xpos": 14, "ypos": 4, "cpk-hex": "668f8f", "phase": "Solid"},
-    {"name": "Arsenic", "symbol": "As", "number": 33, "atomic_mass": 74.922, "category": "metalloid", "period": 4, "group": 15, "xpos": 15, "ypos": 4, "cpk-hex": "bd80e3", "phase": "Solid"},
-    {"name": "Selenium", "symbol": "Se", "number": 34, "atomic_mass": 78.96, "category": "polyatomic nonmetal", "period": 4, "group": 16, "xpos": 16, "ypos": 4, "cpk-hex": "ffa100", "phase": "Solid"},
-    {"name": "Bromine", "symbol": "Br", "number": 35, "atomic_mass": 79.904, "category": "diatomic nonmetal", "period": 4, "group": 17, "xpos": 17, "ypos": 4, "cpk-hex": "a62929", "phase": "Liquid"},
-    {"name": "Krypton", "symbol": "Kr", "number": 36, "atomic_mass": 83.798, "category": "noble gas", "period": 4, "group": 18, "xpos": 18, "ypos": 4, "cpk-hex": "5cb8d1", "phase": "Gas"},
-    {"name": "Rubidium", "symbol": "Rb", "number": 37, "atomic_mass": 85.468, "category": "alkali metal", "period": 5, "group": 1, "xpos": 1, "ypos": 5, "cpk-hex": "702eb0", "phase": "Solid"},
-    {"name": "Strontium", "symbol": "Sr", "number": 38, "atomic_mass": 87.62, "category": "alkaline earth metal", "period": 5, "group": 2, "xpos": 2, "ypos": 5, "cpk-hex": "00ff00", "phase": "Solid"},
-    {"name": "Yttrium", "symbol": "Y", "number": 39, "atomic_mass": 88.906, "category": "transition metal", "period": 5, "group": 3, "xpos": 3, "ypos": 5, "cpk-hex": "94ffff", "phase": "Solid"},
-    {"name": "Zirconium", "symbol": "Zr", "number": 40, "atomic_mass": 91.224, "category": "transition metal", "period": 5, "group": 4, "xpos": 4, "ypos": 5, "cpk-hex": "94e0e0", "phase": "Solid"},
-    {"name": "Niobium", "symbol": "Nb", "number": 41, "atomic_mass": 92.906, "category": "transition metal", "period": 5, "group": 5, "xpos": 5, "ypos": 5, "cpk-hex": "73c2c9", "phase": "Solid"},
-    {"name": "Molybdenum", "symbol": "Mo", "number": 42, "atomic_mass": 95.96, "category": "transition metal", "period": 5, "group": 6, "xpos": 6, "ypos": 5, "cpk-hex": "54b5b5", "phase": "Solid"},
-    {"name": "Technetium", "symbol": "Tc", "number": 43, "atomic_mass": 98, "category": "transition metal", "period": 5, "group": 7, "xpos": 7, "ypos": 5, "cpk-hex": "3b9e9e", "phase": "Solid"},
-    {"name": "Ruthenium", "symbol": "Ru", "number": 44, "atomic_mass": 101.07, "category": "transition metal", "period": 5, "group": 8, "xpos": 8, "ypos": 5, "cpk-hex": "248f8f", "phase": "Solid"},
-    {"name": "Rhodium", "symbol": "Rh", "number": 45, "atomic_mass": 102.906, "category": "transition metal", "period": 5, "group": 9, "xpos": 9, "ypos": 5, "cpk-hex": "0a7d8c", "phase": "Solid"},
-    {"name": "Palladium", "symbol": "Pd", "number": 46, "atomic_mass": 106.42, "category": "transition metal", "period": 5, "group": 10, "xpos": 10, "ypos": 5, "cpk-hex": "006985", "phase": "Solid"},
-    {"name": "Silver", "symbol": "Ag", "number": 47, "atomic_mass": 107.868, "category": "transition metal", "period": 5, "group": 11, "xpos": 11, "ypos": 5, "cpk-hex": "c0c0c0", "phase": "Solid"},
-    {"name": "Cadmium", "symbol": "Cd", "number": 48, "atomic_mass": 112.411, "category": "transition metal", "period": 5, "group": 12, "xpos": 12, "ypos": 5, "cpk-hex": "ffd98f", "phase": "Solid"},
-    {"name": "Indium", "symbol": "In", "number": 49, "atomic_mass": 114.818, "category": "post-transition metal", "period": 5, "group": 13, "xpos": 13, "ypos": 5, "cpk-hex": "a67573", "phase": "Solid"},
-    {"name": "Tin", "symbol": "Sn", "number": 50, "atomic_mass": 118.71, "category": "post-transition metal", "period": 5, "group": 14, "xpos": 14, "ypos": 5, "cpk-hex": "668080", "phase": "Solid"},
-    {"name": "Antimony", "symbol": "Sb", "number": 51, "atomic_mass": 121.76, "category": "metalloid", "period": 5, "group": 15, "xpos": 15, "ypos": 5, "cpk-hex": "9e63b5", "phase": "Solid"},
-    {"name": "Tellurium", "symbol": "Te", "number": 52, "atomic_mass": 127.6, "category": "metalloid", "period": 5, "group": 16, "xpos": 16, "ypos": 5, "cpk-hex": "d47a00", "phase": "Solid"},
-    {"name": "Iodine", "symbol": "I", "number": 53, "atomic_mass": 126.904, "category": "diatomic nonmetal", "period": 5, "group": 17, "xpos": 17, "ypos": 5, "cpk-hex": "940094", "phase": "Solid"},
-    {"name": "Xenon", "symbol": "Xe", "number": 54, "atomic_mass": 131.293, "category": "noble gas", "period": 5, "group": 18, "xpos": 18, "ypos": 5, "cpk-hex": "429eb0", "phase": "Gas"},
-    {"name": "Caesium", "symbol": "Cs", "number": 55, "atomic_mass": 132.905, "category": "alkali metal", "period": 6, "group": 1, "xpos": 1, "ypos": 6, "cpk-hex": "57178f", "phase": "Solid"},
-    {"name": "Barium", "symbol": "Ba", "number": 56, "atomic_mass": 137.327, "category": "alkaline earth metal", "period": 6, "group": 2, "xpos": 2, "ypos": 6, "cpk-hex": "00c900", "phase": "Solid"},
-    {"name": "Lanthanum", "symbol": "La", "number": 57, "atomic_mass": 138.905, "category": "lanthanide", "period": 6, "group": 3, "xpos": 3, "ypos": 9, "cpk-hex": "70d4ff", "phase": "Solid"},
-    {"name": "Cerium", "symbol": "Ce", "number": 58, "atomic_mass": 140.116, "category": "lanthanide", "period": 6, "group": 4, "xpos": 4, "ypos": 9, "cpk-hex": "ffffc7", "phase": "Solid"},
-    {"name": "Praseodymium", "symbol": "Pr", "number": 59, "atomic_mass": 140.908, "category": "lanthanide", "period": 6, "group": 5, "xpos": 5, "ypos": 9, "cpk-hex": "d9ffc7", "phase": "Solid"},
-    {"name": "Neodymium", "symbol": "Nd", "number": 60, "atomic_mass": 144.242, "category": "lanthanide", "period": 6, "group": 6, "xpos": 6, "ypos": 9, "cpk-hex": "c7ffc7", "phase": "Solid"},
-    {"name": "Promethium", "symbol": "Pm", "number": 61, "atomic_mass": 145, "category": "lanthanide", "period": 6, "group": 7, "xpos": 7, "ypos": 9, "cpk-hex": "a3ffc7", "phase": "Solid"},
-    {"name": "Samarium", "symbol": "Sm", "number": 62, "atomic_mass": 150.36, "category": "lanthanide", "period": 6, "group": 8, "xpos": 8, "ypos": 9, "cpk-hex": "8fffc7", "phase": "Solid"},
-    {"name": "Europium", "symbol": "Eu", "number": 63, "atomic_mass": 151.964, "category": "lanthanide", "period": 6, "group": 9, "xpos": 9, "ypos": 9, "cpk-hex": "61ffc7", "phase": "Solid"},
-    {"name": "Gadolinium", "symbol": "Gd", "number": 64, "atomic_mass": 157.25, "category": "lanthanide", "period": 6, "group": 10, "xpos": 10, "ypos": 9, "cpk-hex": "45ffc7", "phase": "Solid"},
-    {"name": "Terbium", "symbol": "Tb", "number": 65, "atomic_mass": 158.925, "category": "lanthanide", "period": 6, "group": 11, "xpos": 11, "ypos": 9, "cpk-hex": "30ffc7", "phase": "Solid"},
-    {"name": "Dysprosium", "symbol": "Dy", "number": 66, "atomic_mass": 162.5, "category": "lanthanide", "period": 6, "group": 12, "xpos": 12, "ypos": 9, "cpk-hex": "1fffc7", "phase": "Solid"},
-    {"name": "Holmium", "symbol": "Ho", "number": 67, "atomic_mass": 164.93, "category": "lanthanide", "period": 6, "group": 13, "xpos": 13, "ypos": 9, "cpk-hex": "00ff9c", "phase": "Solid"},
-    {"name": "Erbium", "symbol": "Er", "number": 68, "atomic_mass": 167.259, "category": "lanthanide", "period": 6, "group": 14, "xpos": 14, "ypos": 9, "cpk-hex": "00e675", "phase": "Solid"},
-    {"name": "Thulium", "symbol": "Tm", "number": 69, "atomic_mass": 168.934, "category": "lanthanide", "period": 6, "group": 15, "xpos": 15, "ypos": 9, "cpk-hex": "00d452", "phase": "Solid"},
-    {"name": "Ytterbium", "symbol": "Yb", "number": 70, "atomic_mass": 173.054, "category": "lanthanide", "period": 6, "group": 16, "xpos": 16, "ypos": 9, "cpk-hex": "00bf38", "phase": "Solid"},
-    {"name": "Lutetium", "symbol": "Lu", "number": 71, "atomic_mass": 174.967, "category": "lanthanide", "period": 6, "group": 17, "xpos": 17, "ypos": 9, "cpk-hex": "00ab24", "phase": "Solid"},
-    {"name": "Hafnium", "symbol": "Hf", "number": 72, "atomic_mass": 178.49, "category": "transition metal", "period": 6, "group": 4, "xpos": 4, "ypos": 6, "cpk-hex": "4dc2ff", "phase": "Solid"},
-    {"name": "Tantalum", "symbol": "Ta", "number": 73, "atomic_mass": 180.948, "category": "transition metal", "period": 6, "group": 5, "xpos": 5, "ypos": 6, "cpk-hex": "4da6ff", "phase": "Solid"},
-    {"name": "Tungsten", "symbol": "W", "number": 74, "atomic_mass": 183.84, "category": "transition metal", "period": 6, "group": 6, "xpos": 6, "ypos": 6, "cpk-hex": "2194d6", "phase": "Solid"},
-    {"name": "Rhenium", "symbol": "Re", "number": 75, "atomic_mass": 186.207, "category": "transition metal", "period": 6, "group": 7, "xpos": 7, "ypos": 6, "cpk-hex": "267dab", "phase": "Solid"},
-    {"name": "Osmium", "symbol": "Os", "number": 76, "atomic_mass": 190.23, "category": "transition metal", "period": 6, "group": 8, "xpos": 8, "ypos": 6, "cpk-hex": "266696", "phase": "Solid"},
-    {"name": "Iridium", "symbol": "Ir", "number": 77, "atomic_mass": 192.217, "category": "transition metal", "period": 6, "group": 9, "xpos": 9, "ypos": 6, "cpk-hex": "175487", "phase": "Solid"},
-    {"name": "Platinum", "symbol": "Pt", "number": 78, "atomic_mass": 195.084, "category": "transition metal", "period": 6, "group": 10, "xpos": 10, "ypos": 6, "cpk-hex": "d0d0e0", "phase": "Solid"},
-    {"name": "Gold", "symbol": "Au", "number": 79, "atomic_mass": 196.967, "category": "transition metal", "period": 6, "group": 11, "xpos": 11, "ypos": 6, "cpk-hex": "ffd123", "phase": "Solid"},
-    {"name": "Mercury", "symbol": "Hg", "number": 80, "atomic_mass": 200.592, "category": "transition metal", "period": 6, "group": 12, "xpos": 12, "ypos": 6, "cpk-hex": "b8b8d0", "phase": "Liquid"},
-    {"name": "Thallium", "symbol": "Tl", "number": 81, "atomic_mass": 204.38, "category": "post-transition metal", "period": 6, "group": 13, "xpos": 13, "ypos": 6, "cpk-hex": "a6544d", "phase": "Solid"},
-    {"name": "Lead", "symbol": "Pb", "number": 82, "atomic_mass": 207.2, "category": "post-transition metal", "period": 6, "group": 14, "xpos": 14, "ypos": 6, "cpk-hex": "575961", "phase": "Solid"},
-    {"name": "Bismuth", "symbol": "Bi", "number": 83, "atomic_mass": 208.98, "category": "post-transition metal", "period": 6, "group": 15, "xpos": 15, "ypos": 6, "cpk-hex": "9e4fb5", "phase": "Solid"},
-    {"name": "Polonium", "symbol": "Po", "number": 84, "atomic_mass": 209, "category": "post-transition metal", "period": 6, "group": 16, "xpos": 16, "ypos": 6, "cpk-hex": "ab5c00", "phase": "Solid"},
-    {"name": "Astatine", "symbol": "At", "number": 85, "atomic_mass": 210, "category": "diatomic nonmetal", "period": 6, "group": 17, "xpos": 17, "ypos": 6, "cpk-hex": "754f45", "phase": "Solid"},
-    {"name": "Radon", "symbol": "Rn", "number": 86, "atomic_mass": 222, "category": "noble gas", "period": 6, "group": 18, "xpos": 18, "ypos": 6, "cpk-hex": "428296", "phase": "Gas"},
-    {"name": "Francium", "symbol": "Fr", "number": 87, "atomic_mass": 223, "category": "alkali metal", "period": 7, "group": 1, "xpos": 1, "ypos": 7, "cpk-hex": "420066", "phase": "Solid"},
-    {"name": "Radium", "symbol": "Ra", "number": 88, "atomic_mass": 226, "category": "alkaline earth metal", "period": 7, "group": 2, "xpos": 2, "ypos": 7, "cpk-hex": "007d00", "phase": "Solid"},
-    {"name": "Actinium", "symbol": "Ac", "number": 89, "atomic_mass": 227, "category": "actinide", "period": 7, "group": 3, "xpos": 3, "ypos": 10, "cpk-hex": "70abfa", "phase": "Solid"},
-    {"name": "Thorium", "symbol": "Th", "number": 90, "atomic_mass": 232.038, "category": "actinide", "period": 7, "group": 4, "xpos": 4, "ypos": 10, "cpk-hex": "00baff", "phase": "Solid"},
-    {"name": "Protactinium", "symbol": "Pa", "number": 91, "atomic_mass": 231.036, "category": "actinide", "period": 7, "group": 5, "xpos": 5, "ypos": 10, "cpk-hex": "00a1ff", "phase": "Solid"},
-    {"name": "Uranium", "symbol": "U", "number": 92, "atomic_mass": 238.029, "category": "actinide", "period": 7, "group": 6, "xpos": 6, "ypos": 10, "cpk-hex": "008fff", "phase": "Solid"},
-    {"name": "Neptunium", "symbol": "Np", "number": 93, "atomic_mass": 237, "category": "actinide", "period": 7, "group": 7, "xpos": 7, "ypos": 10, "cpk-hex": "0080ff", "phase": "Solid"},
-    {"name": "Plutonium", "symbol": "Pu", "number": 94, "atomic_mass": 244, "category": "actinide", "period": 7, "group": 8, "xpos": 8, "ypos": 10, "cpk-hex": "006bff", "phase": "Solid"},
-    {"name": "Americium", "symbol": "Am", "number": 95, "atomic_mass": 243, "category": "actinide", "period": 7, "group": 9, "xpos": 9, "ypos": 10, "cpk-hex": "545cf2", "phase": "Solid"},
-    {"name": "Curium", "symbol": "Cm", "number": 96, "atomic_mass": 247, "category": "actinide", "period": 7, "group": 10, "xpos": 10, "ypos": 10, "cpk-hex": "785ce3", "phase": "Solid"},
-    {"name": "Berkelium", "symbol": "Bk", "number": 97, "atomic_mass": 247, "category": "actinide", "period": 7, "group": 11, "xpos": 11, "ypos": 10, "cpk-hex": "8a4fe3", "phase": "Solid"},
-    {"name": "Californium", "symbol": "Cf", "number": 98, "atomic_mass": 251, "category": "actinide", "period": 7, "group": 12, "xpos": 12, "ypos": 10, "cpk-hex": "a136d4", "phase": "Solid"},
-    {"name": "Einsteinium", "symbol": "Es", "number": 99, "atomic_mass": 252, "category": "actinide", "period": 7, "group": 13, "xpos": 13, "ypos": 10, "cpk-hex": "b31fd4", "phase": "Solid"},
-    {"name": "Fermium", "symbol": "Fm", "number": 100, "atomic_mass": 257, "category": "actinide", "period": 7, "group": 14, "xpos": 14, "ypos": 10, "cpk-hex": "b31fba", "phase": "Solid"},
-    {"name": "Mendelevium", "symbol": "Md", "number": 101, "atomic_mass": 258, "category": "actinide", "period": 7, "group": 15, "xpos": 15, "ypos": 10, "cpk-hex": "b30da6", "phase": "Solid"},
-    {"name": "Nobelium", "symbol": "No", "number": 102, "atomic_mass": 259, "category": "actinide", "period": 7, "group": 16, "xpos": 16, "ypos": 10, "cpk-hex": "bd0d87", "phase": "Solid"},
-    {"name": "Lawrencium", "symbol": "Lr", "number": 103, "atomic_mass": 262, "category": "actinide", "period": 7, "group": 17, "xpos": 17, "ypos": 10, "cpk-hex": "c70066", "phase": "Solid"},
-    {"name": "Rutherfordium", "symbol": "Rf", "number": 104, "atomic_mass": 267, "category": "transition metal", "period": 7, "group": 4, "xpos": 4, "ypos": 7, "cpk-hex": "cc0059", "phase": "Solid"},
-    {"name": "Dubnium", "symbol": "Db", "number": 105, "atomic_mass": 268, "category": "transition metal", "period": 7, "group": 5, "xpos": 5, "ypos": 7, "cpk-hex": "d1004f", "phase": "Solid"},
-    {"name": "Seaborgium", "symbol": "Sg", "number": 106, "atomic_mass": 271, "category": "transition metal", "period": 7, "group": 6, "xpos": 6, "ypos": 7, "cpk-hex": "d90045", "phase": "Solid"},
-    {"name": "Bohrium", "symbol": "Bh", "number": 107, "atomic_mass": 272, "category": "transition metal", "period": 7, "group": 7, "xpos": 7, "ypos": 7, "cpk-hex": "e00038", "phase": "Solid"},
-    {"name": "Hassium", "symbol": "Hs", "number": 108, "atomic_mass": 270, "category": "transition metal", "period": 7, "group": 8, "xpos": 8, "ypos": 7, "cpk-hex": "e6002e", "phase": "Solid"},
-    {"name": "Meitnerium", "symbol": "Mt", "number": 109, "atomic_mass": 276, "category": "transition metal", "period": 7, "group": 9, "xpos": 9, "ypos": 7, "cpk-hex": "eb0026", "phase": "Solid"},
-    {"name": "Darmstadtium", "symbol": "Ds", "number": 110, "atomic_mass": 281, "category": "transition metal", "period": 7, "group": 10, "xpos": 10, "ypos": 7, "cpk-hex": "000000", "phase": "Solid"},
-    {"name": "Roentgenium", "symbol": "Rg", "number": 111, "atomic_mass": 280, "category": "transition metal", "period": 7, "group": 11, "xpos": 11, "ypos": 7, "cpk-hex": "000000", "phase": "Solid"},
-    {"name": "Copernicium", "symbol": "Cn", "number": 112, "atomic_mass": 285, "category": "transition metal", "period": 7, "group": 12, "xpos": 12, "ypos": 7, "cpk-hex": "000000", "phase": "Solid"},
-    {"name": "Nihonium", "symbol": "Nh", "number": 113, "atomic_mass": 284, "category": "post-transition metal", "period": 7, "group": 13, "xpos": 13, "ypos": 7, "cpk-hex": "000000", "phase": "Solid"},
-    {"name": "Flerovium", "symbol": "Fl", "number": 114, "atomic_mass": 289, "category": "post-transition metal", "period": 7, "group": 14, "xpos": 14, "ypos": 7, "cpk-hex": "000000", "phase": "Solid"},
-    {"name": "Moscovium", "symbol": "Mc", "number": 115, "atomic_mass": 288, "category": "post-transition metal", "period": 7, "group": 15, "xpos": 15, "ypos": 7, "cpk-hex": "000000", "phase": "Solid"},
-    {"name": "Livermorium", "symbol": "Lv", "number": 116, "atomic_mass": 293, "category": "post-transition metal", "period": 7, "group": 16, "xpos": 16, "ypos": 7, "cpk-hex": "000000", "phase": "Solid"},
-    {"name": "Tennessine", "symbol": "Ts", "number": 117, "atomic_mass": 294, "category": "diatomic nonmetal", "period": 7, "group": 17, "xpos": 17, "ypos": 7, "cpk-hex": "000000", "phase": "Solid"},
-    {"name": "Oganesson", "symbol": "Og", "number": 118, "atomic_mass": 294, "category": "noble gas", "period": 7, "group": 18, "xpos": 18, "ypos": 7, "cpk-hex": "000000", "phase": "Solid"}
+    {
+      "name": "Hydrogen",
+      "symbol": "H",
+      "number": 1,
+      "atomic_mass": 1.008,
+      "category": "diatomic nonmetal",
+      "period": 1,
+      "group": 1,
+      "xpos": 1,
+      "ypos": 1,
+      "cpk-hex": "ffffff",
+      "phase": "Gas",
+      "image": "/images/elements/h_real.svg",
+      "electron_configuration": "1s¹",
+      "electron_shells": [
+        1
+      ],
+      "orbitals": {
+        "1s": 1
+      }
+    },
+    {
+      "name": "Helium",
+      "symbol": "He",
+      "number": 2,
+      "atomic_mass": 4.003,
+      "category": "noble gas",
+      "period": 1,
+      "group": 18,
+      "xpos": 18,
+      "ypos": 1,
+      "cpk-hex": "d9ffff",
+      "phase": "Gas",
+      "image": "/images/elements/he_real.svg",
+      "electron_configuration": "1s²",
+      "electron_shells": [
+        2
+      ],
+      "orbitals": {
+        "1s": 2
+      }
+    },
+    {
+      "name": "Lithium",
+      "symbol": "Li",
+      "number": 3,
+      "atomic_mass": 6.94,
+      "category": "alkali metal",
+      "period": 2,
+      "group": 1,
+      "xpos": 1,
+      "ypos": 2,
+      "cpk-hex": "cc80ff",
+      "phase": "Solid",
+      "image": "/images/elements/li_real.svg",
+      "electron_configuration": "[He] 2s¹",
+      "electron_shells": [
+        2,
+        1
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 1
+      }
+    },
+    {
+      "name": "Beryllium",
+      "symbol": "Be",
+      "number": 4,
+      "atomic_mass": 9.012,
+      "category": "alkaline earth metal",
+      "period": 2,
+      "group": 2,
+      "xpos": 2,
+      "ypos": 2,
+      "cpk-hex": "c2ff00",
+      "phase": "Solid",
+      "image": "/images/elements/be_real.svg",
+      "electron_configuration": "[He] 2s²",
+      "electron_shells": [
+        2,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2
+      }
+    },
+    {
+      "name": "Boron",
+      "symbol": "B",
+      "number": 5,
+      "atomic_mass": 10.81,
+      "category": "metalloid",
+      "period": 2,
+      "group": 13,
+      "xpos": 13,
+      "ypos": 2,
+      "cpk-hex": "ffb5b5",
+      "phase": "Solid",
+      "image": "/images/elements/b_real.svg",
+      "electron_configuration": "[He] 2s² 2p¹",
+      "electron_shells": [
+        2,
+        3
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 1
+      }
+    },
+    {
+      "name": "Carbon",
+      "symbol": "C",
+      "number": 6,
+      "atomic_mass": 12.011,
+      "category": "polyatomic nonmetal",
+      "period": 2,
+      "group": 14,
+      "xpos": 14,
+      "ypos": 2,
+      "cpk-hex": "909090",
+      "phase": "Solid",
+      "image": "/images/elements/c_real.svg",
+      "electron_configuration": "[He] 2s² 2p²",
+      "electron_shells": [
+        2,
+        4
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 2
+      }
+    },
+    {
+      "name": "Nitrogen",
+      "symbol": "N",
+      "number": 7,
+      "atomic_mass": 14.007,
+      "category": "diatomic nonmetal",
+      "period": 2,
+      "group": 15,
+      "xpos": 15,
+      "ypos": 2,
+      "cpk-hex": "3050f8",
+      "phase": "Gas",
+      "image": "/images/elements/n_real.svg",
+      "electron_configuration": "[He] 2s² 2p³",
+      "electron_shells": [
+        2,
+        5
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 3
+      }
+    },
+    {
+      "name": "Oxygen",
+      "symbol": "O",
+      "number": 8,
+      "atomic_mass": 15.999,
+      "category": "diatomic nonmetal",
+      "period": 2,
+      "group": 16,
+      "xpos": 16,
+      "ypos": 2,
+      "cpk-hex": "ff0d0d",
+      "phase": "Gas",
+      "image": "/images/elements/o_real.svg",
+      "electron_configuration": "[He] 2s² 2p⁴",
+      "electron_shells": [
+        2,
+        6
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 4
+      }
+    },
+    {
+      "name": "Fluorine",
+      "symbol": "F",
+      "number": 9,
+      "atomic_mass": 18.998,
+      "category": "diatomic nonmetal",
+      "period": 2,
+      "group": 17,
+      "xpos": 17,
+      "ypos": 2,
+      "cpk-hex": "90e050",
+      "phase": "Gas",
+      "image": "/images/elements/f_real.svg",
+      "electron_configuration": "[He] 2s² 2p⁵",
+      "electron_shells": [
+        2,
+        7
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 5
+      }
+    },
+    {
+      "name": "Neon",
+      "symbol": "Ne",
+      "number": 10,
+      "atomic_mass": 20.18,
+      "category": "noble gas",
+      "period": 2,
+      "group": 18,
+      "xpos": 18,
+      "ypos": 2,
+      "cpk-hex": "b3e3f5",
+      "phase": "Gas",
+      "image": "/images/elements/ne_real.svg",
+      "electron_configuration": "[He] 2s² 2p⁶",
+      "electron_shells": [
+        2,
+        8
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6
+      }
+    },
+    {
+      "name": "Sodium",
+      "symbol": "Na",
+      "number": 11,
+      "atomic_mass": 22.99,
+      "category": "alkali metal",
+      "period": 3,
+      "group": 1,
+      "xpos": 1,
+      "ypos": 3,
+      "cpk-hex": "ab5cf2",
+      "phase": "Solid",
+      "image": "/images/elements/na_real.svg",
+      "electron_configuration": "[Ne] 3s¹",
+      "electron_shells": [
+        2,
+        8,
+        1
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 1
+      }
+    },
+    {
+      "name": "Magnesium",
+      "symbol": "Mg",
+      "number": 12,
+      "atomic_mass": 24.305,
+      "category": "alkaline earth metal",
+      "period": 3,
+      "group": 2,
+      "xpos": 2,
+      "ypos": 3,
+      "cpk-hex": "8aff00",
+      "phase": "Solid",
+      "image": "/images/elements/mg_real.svg",
+      "electron_configuration": "[Ne] 3s²",
+      "electron_shells": [
+        2,
+        8,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2
+      }
+    },
+    {
+      "name": "Aluminium",
+      "symbol": "Al",
+      "number": 13,
+      "atomic_mass": 26.982,
+      "category": "post-transition metal",
+      "period": 3,
+      "group": 13,
+      "xpos": 13,
+      "ypos": 3,
+      "cpk-hex": "bfa6a6",
+      "phase": "Solid",
+      "image": "/images/elements/al_real.svg",
+      "electron_configuration": "[Ne] 3s² 3p¹",
+      "electron_shells": [
+        2,
+        8,
+        3
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 1
+      }
+    },
+    {
+      "name": "Silicon",
+      "symbol": "Si",
+      "number": 14,
+      "atomic_mass": 28.085,
+      "category": "metalloid",
+      "period": 3,
+      "group": 14,
+      "xpos": 14,
+      "ypos": 3,
+      "cpk-hex": "f0c8a0",
+      "phase": "Solid",
+      "image": "/images/elements/si_real.svg",
+      "electron_configuration": "[Ne] 3s² 3p²",
+      "electron_shells": [
+        2,
+        8,
+        4
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 2
+      }
+    },
+    {
+      "name": "Phosphorus",
+      "symbol": "P",
+      "number": 15,
+      "atomic_mass": 30.974,
+      "category": "polyatomic nonmetal",
+      "period": 3,
+      "group": 15,
+      "xpos": 15,
+      "ypos": 3,
+      "cpk-hex": "ff8000",
+      "phase": "Solid",
+      "image": "/images/elements/p_real.svg",
+      "electron_configuration": "[Ne] 3s² 3p³",
+      "electron_shells": [
+        2,
+        8,
+        5
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 3
+      }
+    },
+    {
+      "name": "Sulfur",
+      "symbol": "S",
+      "number": 16,
+      "atomic_mass": 32.06,
+      "category": "polyatomic nonmetal",
+      "period": 3,
+      "group": 16,
+      "xpos": 16,
+      "ypos": 3,
+      "cpk-hex": "ffff30",
+      "phase": "Solid",
+      "image": "/images/elements/s_real.svg",
+      "electron_configuration": "[Ne] 3s² 3p⁴",
+      "electron_shells": [
+        2,
+        8,
+        6
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 4
+      }
+    },
+    {
+      "name": "Chlorine",
+      "symbol": "Cl",
+      "number": 17,
+      "atomic_mass": 35.45,
+      "category": "diatomic nonmetal",
+      "period": 3,
+      "group": 17,
+      "xpos": 17,
+      "ypos": 3,
+      "cpk-hex": "1ff01f",
+      "phase": "Gas",
+      "image": "/images/elements/cl_real.svg",
+      "electron_configuration": "[Ne] 3s² 3p⁵",
+      "electron_shells": [
+        2,
+        8,
+        7
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 5
+      }
+    },
+    {
+      "name": "Argon",
+      "symbol": "Ar",
+      "number": 18,
+      "atomic_mass": 39.948,
+      "category": "noble gas",
+      "period": 3,
+      "group": 18,
+      "xpos": 18,
+      "ypos": 3,
+      "cpk-hex": "80d1e3",
+      "phase": "Gas",
+      "image": "/images/elements/ar_real.svg",
+      "electron_configuration": "[Ne] 3s² 3p⁶",
+      "electron_shells": [
+        2,
+        8,
+        8
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6
+      }
+    },
+    {
+      "name": "Potassium",
+      "symbol": "K",
+      "number": 19,
+      "atomic_mass": 39.098,
+      "category": "alkali metal",
+      "period": 4,
+      "group": 1,
+      "xpos": 1,
+      "ypos": 4,
+      "cpk-hex": "8f40d4",
+      "phase": "Solid",
+      "image": "/images/elements/k_real.svg",
+      "electron_configuration": "[Ar] 4s¹",
+      "electron_shells": [
+        2,
+        8,
+        8,
+        1
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "4s": 1
+      }
+    },
+    {
+      "name": "Calcium",
+      "symbol": "Ca",
+      "number": 20,
+      "atomic_mass": 40.078,
+      "category": "alkaline earth metal",
+      "period": 4,
+      "group": 2,
+      "xpos": 2,
+      "ypos": 4,
+      "cpk-hex": "3dff00",
+      "phase": "Solid",
+      "image": "/images/elements/ca_real.svg",
+      "electron_configuration": "[Ar] 4s²",
+      "electron_shells": [
+        2,
+        8,
+        8,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "4s": 2
+      }
+    },
+    {
+      "name": "Scandium",
+      "symbol": "Sc",
+      "number": 21,
+      "atomic_mass": 44.956,
+      "category": "transition metal",
+      "period": 4,
+      "group": 3,
+      "xpos": 3,
+      "ypos": 4,
+      "cpk-hex": "e6e6e6",
+      "phase": "Solid",
+      "image": "/images/elements/sc_real.svg",
+      "electron_configuration": "[Ar] 3d¹ 4s²",
+      "electron_shells": [
+        2,
+        8,
+        9,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 1,
+        "4s": 2
+      }
+    },
+    {
+      "name": "Titanium",
+      "symbol": "Ti",
+      "number": 22,
+      "atomic_mass": 47.867,
+      "category": "transition metal",
+      "period": 4,
+      "group": 4,
+      "xpos": 4,
+      "ypos": 4,
+      "cpk-hex": "bfc2c7",
+      "phase": "Solid",
+      "image": "/images/elements/ti_real.svg",
+      "electron_configuration": "[Ar] 3d² 4s²",
+      "electron_shells": [
+        2,
+        8,
+        10,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 2,
+        "4s": 2
+      }
+    },
+    {
+      "name": "Vanadium",
+      "symbol": "V",
+      "number": 23,
+      "atomic_mass": 50.942,
+      "category": "transition metal",
+      "period": 4,
+      "group": 5,
+      "xpos": 5,
+      "ypos": 4,
+      "cpk-hex": "a6a6ab",
+      "phase": "Solid",
+      "image": "/images/elements/v_real.svg",
+      "electron_configuration": "[Ar] 3d³ 4s²",
+      "electron_shells": [
+        2,
+        8,
+        11,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 3,
+        "4s": 2
+      }
+    },
+    {
+      "name": "Chromium",
+      "symbol": "Cr",
+      "number": 24,
+      "atomic_mass": 51.996,
+      "category": "transition metal",
+      "period": 4,
+      "group": 6,
+      "xpos": 6,
+      "ypos": 4,
+      "cpk-hex": "8a99c7",
+      "phase": "Solid",
+      "image": "/images/elements/cr_real.svg",
+      "electron_configuration": "[Ar] 3d⁵ 4s¹",
+      "electron_shells": [
+        2,
+        8,
+        13,
+        1
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 5,
+        "4s": 1
+      }
+    },
+    {
+      "name": "Manganese",
+      "symbol": "Mn",
+      "number": 25,
+      "atomic_mass": 54.938,
+      "category": "transition metal",
+      "period": 4,
+      "group": 7,
+      "xpos": 7,
+      "ypos": 4,
+      "cpk-hex": "9c7ac7",
+      "phase": "Solid",
+      "image": "/images/elements/mn_real.svg",
+      "electron_configuration": "[Ar] 3d⁵ 4s²",
+      "electron_shells": [
+        2,
+        8,
+        13,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 5,
+        "4s": 2
+      }
+    },
+    {
+      "name": "Iron",
+      "symbol": "Fe",
+      "number": 26,
+      "atomic_mass": 55.845,
+      "category": "transition metal",
+      "period": 4,
+      "group": 8,
+      "xpos": 8,
+      "ypos": 4,
+      "cpk-hex": "e06633",
+      "phase": "Solid",
+      "image": "/images/elements/fe_real.svg",
+      "electron_configuration": "[Ar] 3d⁶ 4s²",
+      "electron_shells": [
+        2,
+        8,
+        14,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 6,
+        "4s": 2
+      }
+    },
+    {
+      "name": "Cobalt",
+      "symbol": "Co",
+      "number": 27,
+      "atomic_mass": 58.933,
+      "category": "transition metal",
+      "period": 4,
+      "group": 9,
+      "xpos": 9,
+      "ypos": 4,
+      "cpk-hex": "f090a0",
+      "phase": "Solid",
+      "image": "/images/elements/co_real.svg",
+      "electron_configuration": "[Ar] 3d⁷ 4s²",
+      "electron_shells": [
+        2,
+        8,
+        15,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 7,
+        "4s": 2
+      }
+    },
+    {
+      "name": "Nickel",
+      "symbol": "Ni",
+      "number": 28,
+      "atomic_mass": 58.693,
+      "category": "transition metal",
+      "period": 4,
+      "group": 10,
+      "xpos": 10,
+      "ypos": 4,
+      "cpk-hex": "50d050",
+      "phase": "Solid",
+      "image": "/images/elements/ni_real.svg",
+      "electron_configuration": "[Ar] 3d⁸ 4s²",
+      "electron_shells": [
+        2,
+        8,
+        16,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 8,
+        "4s": 2
+      }
+    },
+    {
+      "name": "Copper",
+      "symbol": "Cu",
+      "number": 29,
+      "atomic_mass": 63.546,
+      "category": "transition metal",
+      "period": 4,
+      "group": 11,
+      "xpos": 11,
+      "ypos": 4,
+      "cpk-hex": "c88033",
+      "phase": "Solid",
+      "image": "/images/elements/cu_real.svg",
+      "electron_configuration": "[Ar] 3d¹⁰ 4s¹",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        1
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 10,
+        "4s": 1
+      }
+    },
+    {
+      "name": "Zinc",
+      "symbol": "Zn",
+      "number": 30,
+      "atomic_mass": 65.38,
+      "category": "transition metal",
+      "period": 4,
+      "group": 12,
+      "xpos": 12,
+      "ypos": 4,
+      "cpk-hex": "7d80b0",
+      "phase": "Solid",
+      "image": "/images/elements/zn_real.svg",
+      "electron_configuration": "[Ar] 3d¹⁰ 4s²",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        2
+      ],
+      "orbitals": {
+        "1s": 2,
+        "2s": 2,
+        "2p": 6,
+        "3s": 2,
+        "3p": 6,
+        "3d": 10,
+        "4s": 2
+      }
+    },
+    {
+      "name": "Gallium",
+      "symbol": "Ga",
+      "number": 31,
+      "atomic_mass": 69.723,
+      "category": "post-transition metal",
+      "period": 4,
+      "group": 13,
+      "xpos": 13,
+      "ypos": 4,
+      "cpk-hex": "c28f8f",
+      "phase": "Solid",
+      "image": "/images/elements/ga_real.svg",
+      "electron_configuration": "簡化配置 (31個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        3
+      ],
+      "orbitals": {
+        "simplified": 31
+      }
+    },
+    {
+      "name": "Germanium",
+      "symbol": "Ge",
+      "number": 32,
+      "atomic_mass": 72.63,
+      "category": "metalloid",
+      "period": 4,
+      "group": 14,
+      "xpos": 14,
+      "ypos": 4,
+      "cpk-hex": "668f8f",
+      "phase": "Solid",
+      "image": "/images/elements/ge_real.svg",
+      "electron_configuration": "簡化配置 (32個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        4
+      ],
+      "orbitals": {
+        "simplified": 32
+      }
+    },
+    {
+      "name": "Arsenic",
+      "symbol": "As",
+      "number": 33,
+      "atomic_mass": 74.922,
+      "category": "metalloid",
+      "period": 4,
+      "group": 15,
+      "xpos": 15,
+      "ypos": 4,
+      "cpk-hex": "bd80e3",
+      "phase": "Solid",
+      "image": "/images/elements/as_real.svg",
+      "electron_configuration": "簡化配置 (33個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        5
+      ],
+      "orbitals": {
+        "simplified": 33
+      }
+    },
+    {
+      "name": "Selenium",
+      "symbol": "Se",
+      "number": 34,
+      "atomic_mass": 78.96,
+      "category": "polyatomic nonmetal",
+      "period": 4,
+      "group": 16,
+      "xpos": 16,
+      "ypos": 4,
+      "cpk-hex": "ffa100",
+      "phase": "Solid",
+      "image": "/images/elements/se_real.svg",
+      "electron_configuration": "簡化配置 (34個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        6
+      ],
+      "orbitals": {
+        "simplified": 34
+      }
+    },
+    {
+      "name": "Bromine",
+      "symbol": "Br",
+      "number": 35,
+      "atomic_mass": 79.904,
+      "category": "diatomic nonmetal",
+      "period": 4,
+      "group": 17,
+      "xpos": 17,
+      "ypos": 4,
+      "cpk-hex": "a62929",
+      "phase": "Liquid",
+      "image": "/images/elements/br_real.svg",
+      "electron_configuration": "簡化配置 (35個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        7
+      ],
+      "orbitals": {
+        "simplified": 35
+      }
+    },
+    {
+      "name": "Krypton",
+      "symbol": "Kr",
+      "number": 36,
+      "atomic_mass": 83.798,
+      "category": "noble gas",
+      "period": 4,
+      "group": 18,
+      "xpos": 18,
+      "ypos": 4,
+      "cpk-hex": "5cb8d1",
+      "phase": "Gas",
+      "image": "/images/elements/kr_real.svg",
+      "electron_configuration": "簡化配置 (36個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        8
+      ],
+      "orbitals": {
+        "simplified": 36
+      }
+    },
+    {
+      "name": "Rubidium",
+      "symbol": "Rb",
+      "number": 37,
+      "atomic_mass": 85.468,
+      "category": "alkali metal",
+      "period": 5,
+      "group": 1,
+      "xpos": 1,
+      "ypos": 5,
+      "cpk-hex": "702eb0",
+      "phase": "Solid",
+      "image": "/images/elements/rb_real.svg",
+      "electron_configuration": "簡化配置 (37個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        9
+      ],
+      "orbitals": {
+        "simplified": 37
+      }
+    },
+    {
+      "name": "Strontium",
+      "symbol": "Sr",
+      "number": 38,
+      "atomic_mass": 87.62,
+      "category": "alkaline earth metal",
+      "period": 5,
+      "group": 2,
+      "xpos": 2,
+      "ypos": 5,
+      "cpk-hex": "00ff00",
+      "phase": "Solid",
+      "image": "/images/elements/sr_real.svg",
+      "electron_configuration": "簡化配置 (38個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        10
+      ],
+      "orbitals": {
+        "simplified": 38
+      }
+    },
+    {
+      "name": "Yttrium",
+      "symbol": "Y",
+      "number": 39,
+      "atomic_mass": 88.906,
+      "category": "transition metal",
+      "period": 5,
+      "group": 3,
+      "xpos": 3,
+      "ypos": 5,
+      "cpk-hex": "94ffff",
+      "phase": "Solid",
+      "image": "/images/elements/y_real.svg",
+      "electron_configuration": "簡化配置 (39個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        11
+      ],
+      "orbitals": {
+        "simplified": 39
+      }
+    },
+    {
+      "name": "Zirconium",
+      "symbol": "Zr",
+      "number": 40,
+      "atomic_mass": 91.224,
+      "category": "transition metal",
+      "period": 5,
+      "group": 4,
+      "xpos": 4,
+      "ypos": 5,
+      "cpk-hex": "94e0e0",
+      "phase": "Solid",
+      "image": "/images/elements/zr_real.svg",
+      "electron_configuration": "簡化配置 (40個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        12
+      ],
+      "orbitals": {
+        "simplified": 40
+      }
+    },
+    {
+      "name": "Niobium",
+      "symbol": "Nb",
+      "number": 41,
+      "atomic_mass": 92.906,
+      "category": "transition metal",
+      "period": 5,
+      "group": 5,
+      "xpos": 5,
+      "ypos": 5,
+      "cpk-hex": "73c2c9",
+      "phase": "Solid",
+      "image": "/images/elements/nb_real.svg",
+      "electron_configuration": "簡化配置 (41個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        13
+      ],
+      "orbitals": {
+        "simplified": 41
+      }
+    },
+    {
+      "name": "Molybdenum",
+      "symbol": "Mo",
+      "number": 42,
+      "atomic_mass": 95.96,
+      "category": "transition metal",
+      "period": 5,
+      "group": 6,
+      "xpos": 6,
+      "ypos": 5,
+      "cpk-hex": "54b5b5",
+      "phase": "Solid",
+      "image": "/images/elements/mo_real.svg",
+      "electron_configuration": "簡化配置 (42個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        14
+      ],
+      "orbitals": {
+        "simplified": 42
+      }
+    },
+    {
+      "name": "Technetium",
+      "symbol": "Tc",
+      "number": 43,
+      "atomic_mass": 98,
+      "category": "transition metal",
+      "period": 5,
+      "group": 7,
+      "xpos": 7,
+      "ypos": 5,
+      "cpk-hex": "3b9e9e",
+      "phase": "Solid",
+      "image": "/images/elements/tc_real.svg",
+      "electron_configuration": "簡化配置 (43個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        15
+      ],
+      "orbitals": {
+        "simplified": 43
+      }
+    },
+    {
+      "name": "Ruthenium",
+      "symbol": "Ru",
+      "number": 44,
+      "atomic_mass": 101.07,
+      "category": "transition metal",
+      "period": 5,
+      "group": 8,
+      "xpos": 8,
+      "ypos": 5,
+      "cpk-hex": "248f8f",
+      "phase": "Solid",
+      "image": "/images/elements/ru_real.svg",
+      "electron_configuration": "簡化配置 (44個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        16
+      ],
+      "orbitals": {
+        "simplified": 44
+      }
+    },
+    {
+      "name": "Rhodium",
+      "symbol": "Rh",
+      "number": 45,
+      "atomic_mass": 102.906,
+      "category": "transition metal",
+      "period": 5,
+      "group": 9,
+      "xpos": 9,
+      "ypos": 5,
+      "cpk-hex": "0a7d8c",
+      "phase": "Solid",
+      "image": "/images/elements/rh_real.svg",
+      "electron_configuration": "簡化配置 (45個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        17
+      ],
+      "orbitals": {
+        "simplified": 45
+      }
+    },
+    {
+      "name": "Palladium",
+      "symbol": "Pd",
+      "number": 46,
+      "atomic_mass": 106.42,
+      "category": "transition metal",
+      "period": 5,
+      "group": 10,
+      "xpos": 10,
+      "ypos": 5,
+      "cpk-hex": "006985",
+      "phase": "Solid",
+      "image": "/images/elements/pd_real.svg",
+      "electron_configuration": "簡化配置 (46個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        18
+      ],
+      "orbitals": {
+        "simplified": 46
+      }
+    },
+    {
+      "name": "Silver",
+      "symbol": "Ag",
+      "number": 47,
+      "atomic_mass": 107.868,
+      "category": "transition metal",
+      "period": 5,
+      "group": 11,
+      "xpos": 11,
+      "ypos": 5,
+      "cpk-hex": "c0c0c0",
+      "phase": "Solid",
+      "image": "/images/elements/ag_real.svg",
+      "electron_configuration": "簡化配置 (47個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        19
+      ],
+      "orbitals": {
+        "simplified": 47
+      }
+    },
+    {
+      "name": "Cadmium",
+      "symbol": "Cd",
+      "number": 48,
+      "atomic_mass": 112.411,
+      "category": "transition metal",
+      "period": 5,
+      "group": 12,
+      "xpos": 12,
+      "ypos": 5,
+      "cpk-hex": "ffd98f",
+      "phase": "Solid",
+      "image": "/images/elements/cd_real.svg",
+      "electron_configuration": "簡化配置 (48個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        20
+      ],
+      "orbitals": {
+        "simplified": 48
+      }
+    },
+    {
+      "name": "Indium",
+      "symbol": "In",
+      "number": 49,
+      "atomic_mass": 114.818,
+      "category": "post-transition metal",
+      "period": 5,
+      "group": 13,
+      "xpos": 13,
+      "ypos": 5,
+      "cpk-hex": "a67573",
+      "phase": "Solid",
+      "image": "/images/elements/in_real.svg",
+      "electron_configuration": "簡化配置 (49個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        21
+      ],
+      "orbitals": {
+        "simplified": 49
+      }
+    },
+    {
+      "name": "Tin",
+      "symbol": "Sn",
+      "number": 50,
+      "atomic_mass": 118.71,
+      "category": "post-transition metal",
+      "period": 5,
+      "group": 14,
+      "xpos": 14,
+      "ypos": 5,
+      "cpk-hex": "668080",
+      "phase": "Solid",
+      "image": "/images/elements/sn_real.svg",
+      "electron_configuration": "簡化配置 (50個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        22
+      ],
+      "orbitals": {
+        "simplified": 50
+      }
+    },
+    {
+      "name": "Antimony",
+      "symbol": "Sb",
+      "number": 51,
+      "atomic_mass": 121.76,
+      "category": "metalloid",
+      "period": 5,
+      "group": 15,
+      "xpos": 15,
+      "ypos": 5,
+      "cpk-hex": "9e63b5",
+      "phase": "Solid",
+      "image": "/images/elements/sb_real.svg",
+      "electron_configuration": "簡化配置 (51個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        23
+      ],
+      "orbitals": {
+        "simplified": 51
+      }
+    },
+    {
+      "name": "Tellurium",
+      "symbol": "Te",
+      "number": 52,
+      "atomic_mass": 127.6,
+      "category": "metalloid",
+      "period": 5,
+      "group": 16,
+      "xpos": 16,
+      "ypos": 5,
+      "cpk-hex": "d47a00",
+      "phase": "Solid",
+      "image": "/images/elements/te_real.svg",
+      "electron_configuration": "簡化配置 (52個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        24
+      ],
+      "orbitals": {
+        "simplified": 52
+      }
+    },
+    {
+      "name": "Iodine",
+      "symbol": "I",
+      "number": 53,
+      "atomic_mass": 126.904,
+      "category": "diatomic nonmetal",
+      "period": 5,
+      "group": 17,
+      "xpos": 17,
+      "ypos": 5,
+      "cpk-hex": "940094",
+      "phase": "Solid",
+      "image": "/images/elements/i_real.svg",
+      "electron_configuration": "簡化配置 (53個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        25
+      ],
+      "orbitals": {
+        "simplified": 53
+      }
+    },
+    {
+      "name": "Xenon",
+      "symbol": "Xe",
+      "number": 54,
+      "atomic_mass": 131.293,
+      "category": "noble gas",
+      "period": 5,
+      "group": 18,
+      "xpos": 18,
+      "ypos": 5,
+      "cpk-hex": "429eb0",
+      "phase": "Gas",
+      "image": "/images/elements/xe_real.svg",
+      "electron_configuration": "簡化配置 (54個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        26
+      ],
+      "orbitals": {
+        "simplified": 54
+      }
+    },
+    {
+      "name": "Caesium",
+      "symbol": "Cs",
+      "number": 55,
+      "atomic_mass": 132.905,
+      "category": "alkali metal",
+      "period": 6,
+      "group": 1,
+      "xpos": 1,
+      "ypos": 6,
+      "cpk-hex": "57178f",
+      "phase": "Solid",
+      "image": "/images/elements/cs_real.svg",
+      "electron_configuration": "簡化配置 (55個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        27
+      ],
+      "orbitals": {
+        "simplified": 55
+      }
+    },
+    {
+      "name": "Barium",
+      "symbol": "Ba",
+      "number": 56,
+      "atomic_mass": 137.327,
+      "category": "alkaline earth metal",
+      "period": 6,
+      "group": 2,
+      "xpos": 2,
+      "ypos": 6,
+      "cpk-hex": "00c900",
+      "phase": "Solid",
+      "image": "/images/elements/ba_real.svg",
+      "electron_configuration": "簡化配置 (56個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        28
+      ],
+      "orbitals": {
+        "simplified": 56
+      }
+    },
+    {
+      "name": "Lanthanum",
+      "symbol": "La",
+      "number": 57,
+      "atomic_mass": 138.905,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 3,
+      "xpos": 3,
+      "ypos": 9,
+      "cpk-hex": "70d4ff",
+      "phase": "Solid",
+      "image": "/images/elements/la_real.svg",
+      "electron_configuration": "簡化配置 (57個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        29
+      ],
+      "orbitals": {
+        "simplified": 57
+      }
+    },
+    {
+      "name": "Cerium",
+      "symbol": "Ce",
+      "number": 58,
+      "atomic_mass": 140.116,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 4,
+      "xpos": 4,
+      "ypos": 9,
+      "cpk-hex": "ffffc7",
+      "phase": "Solid",
+      "image": "/images/elements/ce_real.svg",
+      "electron_configuration": "簡化配置 (58個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        30
+      ],
+      "orbitals": {
+        "simplified": 58
+      }
+    },
+    {
+      "name": "Praseodymium",
+      "symbol": "Pr",
+      "number": 59,
+      "atomic_mass": 140.908,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 5,
+      "xpos": 5,
+      "ypos": 9,
+      "cpk-hex": "d9ffc7",
+      "phase": "Solid",
+      "image": "/images/elements/pr_real.svg",
+      "electron_configuration": "簡化配置 (59個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        31
+      ],
+      "orbitals": {
+        "simplified": 59
+      }
+    },
+    {
+      "name": "Neodymium",
+      "symbol": "Nd",
+      "number": 60,
+      "atomic_mass": 144.242,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 6,
+      "xpos": 6,
+      "ypos": 9,
+      "cpk-hex": "c7ffc7",
+      "phase": "Solid",
+      "image": "/images/elements/nd_real.svg",
+      "electron_configuration": "簡化配置 (60個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32
+      ],
+      "orbitals": {
+        "simplified": 60
+      }
+    },
+    {
+      "name": "Promethium",
+      "symbol": "Pm",
+      "number": 61,
+      "atomic_mass": 145,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 7,
+      "xpos": 7,
+      "ypos": 9,
+      "cpk-hex": "a3ffc7",
+      "phase": "Solid",
+      "image": "/images/elements/pm_real.svg",
+      "electron_configuration": "簡化配置 (61個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        1
+      ],
+      "orbitals": {
+        "simplified": 61
+      }
+    },
+    {
+      "name": "Samarium",
+      "symbol": "Sm",
+      "number": 62,
+      "atomic_mass": 150.36,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 8,
+      "xpos": 8,
+      "ypos": 9,
+      "cpk-hex": "8fffc7",
+      "phase": "Solid",
+      "image": "/images/elements/sm_real.svg",
+      "electron_configuration": "簡化配置 (62個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        2
+      ],
+      "orbitals": {
+        "simplified": 62
+      }
+    },
+    {
+      "name": "Europium",
+      "symbol": "Eu",
+      "number": 63,
+      "atomic_mass": 151.964,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 9,
+      "xpos": 9,
+      "ypos": 9,
+      "cpk-hex": "61ffc7",
+      "phase": "Solid",
+      "image": "/images/elements/eu_real.svg",
+      "electron_configuration": "簡化配置 (63個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        3
+      ],
+      "orbitals": {
+        "simplified": 63
+      }
+    },
+    {
+      "name": "Gadolinium",
+      "symbol": "Gd",
+      "number": 64,
+      "atomic_mass": 157.25,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 10,
+      "xpos": 10,
+      "ypos": 9,
+      "cpk-hex": "45ffc7",
+      "phase": "Solid",
+      "image": "/images/elements/gd_real.svg",
+      "electron_configuration": "簡化配置 (64個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        4
+      ],
+      "orbitals": {
+        "simplified": 64
+      }
+    },
+    {
+      "name": "Terbium",
+      "symbol": "Tb",
+      "number": 65,
+      "atomic_mass": 158.925,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 11,
+      "xpos": 11,
+      "ypos": 9,
+      "cpk-hex": "30ffc7",
+      "phase": "Solid",
+      "image": "/images/elements/tb_real.svg",
+      "electron_configuration": "簡化配置 (65個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        5
+      ],
+      "orbitals": {
+        "simplified": 65
+      }
+    },
+    {
+      "name": "Dysprosium",
+      "symbol": "Dy",
+      "number": 66,
+      "atomic_mass": 162.5,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 12,
+      "xpos": 12,
+      "ypos": 9,
+      "cpk-hex": "1fffc7",
+      "phase": "Solid",
+      "image": "/images/elements/dy_real.svg",
+      "electron_configuration": "簡化配置 (66個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        6
+      ],
+      "orbitals": {
+        "simplified": 66
+      }
+    },
+    {
+      "name": "Holmium",
+      "symbol": "Ho",
+      "number": 67,
+      "atomic_mass": 164.93,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 13,
+      "xpos": 13,
+      "ypos": 9,
+      "cpk-hex": "00ff9c",
+      "phase": "Solid",
+      "image": "/images/elements/ho_real.svg",
+      "electron_configuration": "簡化配置 (67個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        7
+      ],
+      "orbitals": {
+        "simplified": 67
+      }
+    },
+    {
+      "name": "Erbium",
+      "symbol": "Er",
+      "number": 68,
+      "atomic_mass": 167.259,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 14,
+      "xpos": 14,
+      "ypos": 9,
+      "cpk-hex": "00e675",
+      "phase": "Solid",
+      "image": "/images/elements/er_real.svg",
+      "electron_configuration": "簡化配置 (68個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        8
+      ],
+      "orbitals": {
+        "simplified": 68
+      }
+    },
+    {
+      "name": "Thulium",
+      "symbol": "Tm",
+      "number": 69,
+      "atomic_mass": 168.934,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 15,
+      "xpos": 15,
+      "ypos": 9,
+      "cpk-hex": "00d452",
+      "phase": "Solid",
+      "image": "/images/elements/tm_real.svg",
+      "electron_configuration": "簡化配置 (69個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        9
+      ],
+      "orbitals": {
+        "simplified": 69
+      }
+    },
+    {
+      "name": "Ytterbium",
+      "symbol": "Yb",
+      "number": 70,
+      "atomic_mass": 173.054,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 16,
+      "xpos": 16,
+      "ypos": 9,
+      "cpk-hex": "00bf38",
+      "phase": "Solid",
+      "image": "/images/elements/yb_real.svg",
+      "electron_configuration": "簡化配置 (70個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        10
+      ],
+      "orbitals": {
+        "simplified": 70
+      }
+    },
+    {
+      "name": "Lutetium",
+      "symbol": "Lu",
+      "number": 71,
+      "atomic_mass": 174.967,
+      "category": "lanthanide",
+      "period": 6,
+      "group": 17,
+      "xpos": 17,
+      "ypos": 9,
+      "cpk-hex": "00ab24",
+      "phase": "Solid",
+      "image": "/images/elements/lu_real.svg",
+      "electron_configuration": "簡化配置 (71個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        11
+      ],
+      "orbitals": {
+        "simplified": 71
+      }
+    },
+    {
+      "name": "Hafnium",
+      "symbol": "Hf",
+      "number": 72,
+      "atomic_mass": 178.49,
+      "category": "transition metal",
+      "period": 6,
+      "group": 4,
+      "xpos": 4,
+      "ypos": 6,
+      "cpk-hex": "4dc2ff",
+      "phase": "Solid",
+      "image": "/images/elements/hf_real.svg",
+      "electron_configuration": "簡化配置 (72個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        12
+      ],
+      "orbitals": {
+        "simplified": 72
+      }
+    },
+    {
+      "name": "Tantalum",
+      "symbol": "Ta",
+      "number": 73,
+      "atomic_mass": 180.948,
+      "category": "transition metal",
+      "period": 6,
+      "group": 5,
+      "xpos": 5,
+      "ypos": 6,
+      "cpk-hex": "4da6ff",
+      "phase": "Solid",
+      "image": "/images/elements/ta_real.svg",
+      "electron_configuration": "簡化配置 (73個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        13
+      ],
+      "orbitals": {
+        "simplified": 73
+      }
+    },
+    {
+      "name": "Tungsten",
+      "symbol": "W",
+      "number": 74,
+      "atomic_mass": 183.84,
+      "category": "transition metal",
+      "period": 6,
+      "group": 6,
+      "xpos": 6,
+      "ypos": 6,
+      "cpk-hex": "2194d6",
+      "phase": "Solid",
+      "image": "/images/elements/w_real.svg",
+      "electron_configuration": "簡化配置 (74個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        14
+      ],
+      "orbitals": {
+        "simplified": 74
+      }
+    },
+    {
+      "name": "Rhenium",
+      "symbol": "Re",
+      "number": 75,
+      "atomic_mass": 186.207,
+      "category": "transition metal",
+      "period": 6,
+      "group": 7,
+      "xpos": 7,
+      "ypos": 6,
+      "cpk-hex": "267dab",
+      "phase": "Solid",
+      "image": "/images/elements/re_real.svg",
+      "electron_configuration": "簡化配置 (75個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        15
+      ],
+      "orbitals": {
+        "simplified": 75
+      }
+    },
+    {
+      "name": "Osmium",
+      "symbol": "Os",
+      "number": 76,
+      "atomic_mass": 190.23,
+      "category": "transition metal",
+      "period": 6,
+      "group": 8,
+      "xpos": 8,
+      "ypos": 6,
+      "cpk-hex": "266696",
+      "phase": "Solid",
+      "image": "/images/elements/os_real.svg",
+      "electron_configuration": "簡化配置 (76個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        16
+      ],
+      "orbitals": {
+        "simplified": 76
+      }
+    },
+    {
+      "name": "Iridium",
+      "symbol": "Ir",
+      "number": 77,
+      "atomic_mass": 192.217,
+      "category": "transition metal",
+      "period": 6,
+      "group": 9,
+      "xpos": 9,
+      "ypos": 6,
+      "cpk-hex": "175487",
+      "phase": "Solid",
+      "image": "/images/elements/ir_real.svg",
+      "electron_configuration": "簡化配置 (77個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        17
+      ],
+      "orbitals": {
+        "simplified": 77
+      }
+    },
+    {
+      "name": "Platinum",
+      "symbol": "Pt",
+      "number": 78,
+      "atomic_mass": 195.084,
+      "category": "transition metal",
+      "period": 6,
+      "group": 10,
+      "xpos": 10,
+      "ypos": 6,
+      "cpk-hex": "d0d0e0",
+      "phase": "Solid",
+      "image": "/images/elements/pt_real.svg",
+      "electron_configuration": "簡化配置 (78個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        18
+      ],
+      "orbitals": {
+        "simplified": 78
+      }
+    },
+    {
+      "name": "Gold",
+      "symbol": "Au",
+      "number": 79,
+      "atomic_mass": 196.967,
+      "category": "transition metal",
+      "period": 6,
+      "group": 11,
+      "xpos": 11,
+      "ypos": 6,
+      "cpk-hex": "ffd123",
+      "phase": "Solid",
+      "image": "/images/elements/au_real.svg",
+      "electron_configuration": "簡化配置 (79個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        19
+      ],
+      "orbitals": {
+        "simplified": 79
+      }
+    },
+    {
+      "name": "Mercury",
+      "symbol": "Hg",
+      "number": 80,
+      "atomic_mass": 200.592,
+      "category": "transition metal",
+      "period": 6,
+      "group": 12,
+      "xpos": 12,
+      "ypos": 6,
+      "cpk-hex": "b8b8d0",
+      "phase": "Liquid",
+      "image": "/images/elements/hg_real.svg",
+      "electron_configuration": "簡化配置 (80個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        20
+      ],
+      "orbitals": {
+        "simplified": 80
+      }
+    },
+    {
+      "name": "Thallium",
+      "symbol": "Tl",
+      "number": 81,
+      "atomic_mass": 204.38,
+      "category": "post-transition metal",
+      "period": 6,
+      "group": 13,
+      "xpos": 13,
+      "ypos": 6,
+      "cpk-hex": "a6544d",
+      "phase": "Solid",
+      "image": "/images/elements/tl_real.svg",
+      "electron_configuration": "簡化配置 (81個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        21
+      ],
+      "orbitals": {
+        "simplified": 81
+      }
+    },
+    {
+      "name": "Lead",
+      "symbol": "Pb",
+      "number": 82,
+      "atomic_mass": 207.2,
+      "category": "post-transition metal",
+      "period": 6,
+      "group": 14,
+      "xpos": 14,
+      "ypos": 6,
+      "cpk-hex": "575961",
+      "phase": "Solid",
+      "image": "/images/elements/pb_real.svg",
+      "electron_configuration": "簡化配置 (82個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        22
+      ],
+      "orbitals": {
+        "simplified": 82
+      }
+    },
+    {
+      "name": "Bismuth",
+      "symbol": "Bi",
+      "number": 83,
+      "atomic_mass": 208.98,
+      "category": "post-transition metal",
+      "period": 6,
+      "group": 15,
+      "xpos": 15,
+      "ypos": 6,
+      "cpk-hex": "9e4fb5",
+      "phase": "Solid",
+      "image": "/images/elements/bi_real.svg",
+      "electron_configuration": "簡化配置 (83個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        23
+      ],
+      "orbitals": {
+        "simplified": 83
+      }
+    },
+    {
+      "name": "Polonium",
+      "symbol": "Po",
+      "number": 84,
+      "atomic_mass": 209,
+      "category": "post-transition metal",
+      "period": 6,
+      "group": 16,
+      "xpos": 16,
+      "ypos": 6,
+      "cpk-hex": "ab5c00",
+      "phase": "Solid",
+      "image": "/images/elements/po_real.svg",
+      "electron_configuration": "簡化配置 (84個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        24
+      ],
+      "orbitals": {
+        "simplified": 84
+      }
+    },
+    {
+      "name": "Astatine",
+      "symbol": "At",
+      "number": 85,
+      "atomic_mass": 210,
+      "category": "diatomic nonmetal",
+      "period": 6,
+      "group": 17,
+      "xpos": 17,
+      "ypos": 6,
+      "cpk-hex": "754f45",
+      "phase": "Solid",
+      "image": "/images/elements/at_real.svg",
+      "electron_configuration": "簡化配置 (85個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        25
+      ],
+      "orbitals": {
+        "simplified": 85
+      }
+    },
+    {
+      "name": "Radon",
+      "symbol": "Rn",
+      "number": 86,
+      "atomic_mass": 222,
+      "category": "noble gas",
+      "period": 6,
+      "group": 18,
+      "xpos": 18,
+      "ypos": 6,
+      "cpk-hex": "428296",
+      "phase": "Gas",
+      "image": "/images/elements/rn_real.svg",
+      "electron_configuration": "簡化配置 (86個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        26
+      ],
+      "orbitals": {
+        "simplified": 86
+      }
+    },
+    {
+      "name": "Francium",
+      "symbol": "Fr",
+      "number": 87,
+      "atomic_mass": 223,
+      "category": "alkali metal",
+      "period": 7,
+      "group": 1,
+      "xpos": 1,
+      "ypos": 7,
+      "cpk-hex": "420066",
+      "phase": "Solid",
+      "image": "/images/elements/fr_real.svg",
+      "electron_configuration": "簡化配置 (87個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        27
+      ],
+      "orbitals": {
+        "simplified": 87
+      }
+    },
+    {
+      "name": "Radium",
+      "symbol": "Ra",
+      "number": 88,
+      "atomic_mass": 226,
+      "category": "alkaline earth metal",
+      "period": 7,
+      "group": 2,
+      "xpos": 2,
+      "ypos": 7,
+      "cpk-hex": "007d00",
+      "phase": "Solid",
+      "image": "/images/elements/ra_real.svg",
+      "electron_configuration": "簡化配置 (88個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        28
+      ],
+      "orbitals": {
+        "simplified": 88
+      }
+    },
+    {
+      "name": "Actinium",
+      "symbol": "Ac",
+      "number": 89,
+      "atomic_mass": 227,
+      "category": "actinide",
+      "period": 7,
+      "group": 3,
+      "xpos": 3,
+      "ypos": 10,
+      "cpk-hex": "70abfa",
+      "phase": "Solid",
+      "image": "/images/elements/ac_real.svg",
+      "electron_configuration": "簡化配置 (89個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        29
+      ],
+      "orbitals": {
+        "simplified": 89
+      }
+    },
+    {
+      "name": "Thorium",
+      "symbol": "Th",
+      "number": 90,
+      "atomic_mass": 232.038,
+      "category": "actinide",
+      "period": 7,
+      "group": 4,
+      "xpos": 4,
+      "ypos": 10,
+      "cpk-hex": "00baff",
+      "phase": "Solid",
+      "image": "/images/elements/th_real.svg",
+      "electron_configuration": "簡化配置 (90個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        30
+      ],
+      "orbitals": {
+        "simplified": 90
+      }
+    },
+    {
+      "name": "Protactinium",
+      "symbol": "Pa",
+      "number": 91,
+      "atomic_mass": 231.036,
+      "category": "actinide",
+      "period": 7,
+      "group": 5,
+      "xpos": 5,
+      "ypos": 10,
+      "cpk-hex": "00a1ff",
+      "phase": "Solid",
+      "image": "/images/elements/pa_real.svg",
+      "electron_configuration": "簡化配置 (91個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        31
+      ],
+      "orbitals": {
+        "simplified": 91
+      }
+    },
+    {
+      "name": "Uranium",
+      "symbol": "U",
+      "number": 92,
+      "atomic_mass": 238.029,
+      "category": "actinide",
+      "period": 7,
+      "group": 6,
+      "xpos": 6,
+      "ypos": 10,
+      "cpk-hex": "008fff",
+      "phase": "Solid",
+      "image": "/images/elements/u_real.svg",
+      "electron_configuration": "簡化配置 (92個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32
+      ],
+      "orbitals": {
+        "simplified": 92
+      }
+    },
+    {
+      "name": "Neptunium",
+      "symbol": "Np",
+      "number": 93,
+      "atomic_mass": 237,
+      "category": "actinide",
+      "period": 7,
+      "group": 7,
+      "xpos": 7,
+      "ypos": 10,
+      "cpk-hex": "0080ff",
+      "phase": "Solid",
+      "image": "/images/elements/np_real.svg",
+      "electron_configuration": "簡化配置 (93個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        1
+      ],
+      "orbitals": {
+        "simplified": 93
+      }
+    },
+    {
+      "name": "Plutonium",
+      "symbol": "Pu",
+      "number": 94,
+      "atomic_mass": 244,
+      "category": "actinide",
+      "period": 7,
+      "group": 8,
+      "xpos": 8,
+      "ypos": 10,
+      "cpk-hex": "006bff",
+      "phase": "Solid",
+      "image": "/images/elements/pu_real.svg",
+      "electron_configuration": "簡化配置 (94個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        2
+      ],
+      "orbitals": {
+        "simplified": 94
+      }
+    },
+    {
+      "name": "Americium",
+      "symbol": "Am",
+      "number": 95,
+      "atomic_mass": 243,
+      "category": "actinide",
+      "period": 7,
+      "group": 9,
+      "xpos": 9,
+      "ypos": 10,
+      "cpk-hex": "545cf2",
+      "phase": "Solid",
+      "image": "/images/elements/am_real.svg",
+      "electron_configuration": "簡化配置 (95個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        3
+      ],
+      "orbitals": {
+        "simplified": 95
+      }
+    },
+    {
+      "name": "Curium",
+      "symbol": "Cm",
+      "number": 96,
+      "atomic_mass": 247,
+      "category": "actinide",
+      "period": 7,
+      "group": 10,
+      "xpos": 10,
+      "ypos": 10,
+      "cpk-hex": "785ce3",
+      "phase": "Solid",
+      "image": "/images/elements/cm_real.svg",
+      "electron_configuration": "簡化配置 (96個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        4
+      ],
+      "orbitals": {
+        "simplified": 96
+      }
+    },
+    {
+      "name": "Berkelium",
+      "symbol": "Bk",
+      "number": 97,
+      "atomic_mass": 247,
+      "category": "actinide",
+      "period": 7,
+      "group": 11,
+      "xpos": 11,
+      "ypos": 10,
+      "cpk-hex": "8a4fe3",
+      "phase": "Solid",
+      "image": "/images/elements/bk_real.svg",
+      "electron_configuration": "簡化配置 (97個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        5
+      ],
+      "orbitals": {
+        "simplified": 97
+      }
+    },
+    {
+      "name": "Californium",
+      "symbol": "Cf",
+      "number": 98,
+      "atomic_mass": 251,
+      "category": "actinide",
+      "period": 7,
+      "group": 12,
+      "xpos": 12,
+      "ypos": 10,
+      "cpk-hex": "a136d4",
+      "phase": "Solid",
+      "image": "/images/elements/cf_real.svg",
+      "electron_configuration": "簡化配置 (98個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        6
+      ],
+      "orbitals": {
+        "simplified": 98
+      }
+    },
+    {
+      "name": "Einsteinium",
+      "symbol": "Es",
+      "number": 99,
+      "atomic_mass": 252,
+      "category": "actinide",
+      "period": 7,
+      "group": 13,
+      "xpos": 13,
+      "ypos": 10,
+      "cpk-hex": "b31fd4",
+      "phase": "Solid",
+      "image": "/images/elements/es_real.svg",
+      "electron_configuration": "簡化配置 (99個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        7
+      ],
+      "orbitals": {
+        "simplified": 99
+      }
+    },
+    {
+      "name": "Fermium",
+      "symbol": "Fm",
+      "number": 100,
+      "atomic_mass": 257,
+      "category": "actinide",
+      "period": 7,
+      "group": 14,
+      "xpos": 14,
+      "ypos": 10,
+      "cpk-hex": "b31fba",
+      "phase": "Solid",
+      "image": "/images/elements/fm_real.svg",
+      "electron_configuration": "簡化配置 (100個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        8
+      ],
+      "orbitals": {
+        "simplified": 100
+      }
+    },
+    {
+      "name": "Mendelevium",
+      "symbol": "Md",
+      "number": 101,
+      "atomic_mass": 258,
+      "category": "actinide",
+      "period": 7,
+      "group": 15,
+      "xpos": 15,
+      "ypos": 10,
+      "cpk-hex": "b30da6",
+      "phase": "Solid",
+      "image": "/images/elements/md_real.svg",
+      "electron_configuration": "簡化配置 (101個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        9
+      ],
+      "orbitals": {
+        "simplified": 101
+      }
+    },
+    {
+      "name": "Nobelium",
+      "symbol": "No",
+      "number": 102,
+      "atomic_mass": 259,
+      "category": "actinide",
+      "period": 7,
+      "group": 16,
+      "xpos": 16,
+      "ypos": 10,
+      "cpk-hex": "bd0d87",
+      "phase": "Solid",
+      "image": "/images/elements/no_real.svg",
+      "electron_configuration": "簡化配置 (102個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        10
+      ],
+      "orbitals": {
+        "simplified": 102
+      }
+    },
+    {
+      "name": "Lawrencium",
+      "symbol": "Lr",
+      "number": 103,
+      "atomic_mass": 262,
+      "category": "actinide",
+      "period": 7,
+      "group": 17,
+      "xpos": 17,
+      "ypos": 10,
+      "cpk-hex": "c70066",
+      "phase": "Solid",
+      "image": "/images/elements/lr_real.svg",
+      "electron_configuration": "簡化配置 (103個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        11
+      ],
+      "orbitals": {
+        "simplified": 103
+      }
+    },
+    {
+      "name": "Rutherfordium",
+      "symbol": "Rf",
+      "number": 104,
+      "atomic_mass": 267,
+      "category": "transition metal",
+      "period": 7,
+      "group": 4,
+      "xpos": 4,
+      "ypos": 7,
+      "cpk-hex": "cc0059",
+      "phase": "Solid",
+      "image": "/images/elements/rf_real.svg",
+      "electron_configuration": "簡化配置 (104個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        12
+      ],
+      "orbitals": {
+        "simplified": 104
+      }
+    },
+    {
+      "name": "Dubnium",
+      "symbol": "Db",
+      "number": 105,
+      "atomic_mass": 268,
+      "category": "transition metal",
+      "period": 7,
+      "group": 5,
+      "xpos": 5,
+      "ypos": 7,
+      "cpk-hex": "d1004f",
+      "phase": "Solid",
+      "image": "/images/elements/db_real.svg",
+      "electron_configuration": "簡化配置 (105個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        13
+      ],
+      "orbitals": {
+        "simplified": 105
+      }
+    },
+    {
+      "name": "Seaborgium",
+      "symbol": "Sg",
+      "number": 106,
+      "atomic_mass": 271,
+      "category": "transition metal",
+      "period": 7,
+      "group": 6,
+      "xpos": 6,
+      "ypos": 7,
+      "cpk-hex": "d90045",
+      "phase": "Solid",
+      "image": "/images/elements/sg_real.svg",
+      "electron_configuration": "簡化配置 (106個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        14
+      ],
+      "orbitals": {
+        "simplified": 106
+      }
+    },
+    {
+      "name": "Bohrium",
+      "symbol": "Bh",
+      "number": 107,
+      "atomic_mass": 272,
+      "category": "transition metal",
+      "period": 7,
+      "group": 7,
+      "xpos": 7,
+      "ypos": 7,
+      "cpk-hex": "e00038",
+      "phase": "Solid",
+      "image": "/images/elements/bh_real.svg",
+      "electron_configuration": "簡化配置 (107個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        15
+      ],
+      "orbitals": {
+        "simplified": 107
+      }
+    },
+    {
+      "name": "Hassium",
+      "symbol": "Hs",
+      "number": 108,
+      "atomic_mass": 270,
+      "category": "transition metal",
+      "period": 7,
+      "group": 8,
+      "xpos": 8,
+      "ypos": 7,
+      "cpk-hex": "e6002e",
+      "phase": "Solid",
+      "image": "/images/elements/hs_real.svg",
+      "electron_configuration": "簡化配置 (108個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        16
+      ],
+      "orbitals": {
+        "simplified": 108
+      }
+    },
+    {
+      "name": "Meitnerium",
+      "symbol": "Mt",
+      "number": 109,
+      "atomic_mass": 276,
+      "category": "transition metal",
+      "period": 7,
+      "group": 9,
+      "xpos": 9,
+      "ypos": 7,
+      "cpk-hex": "eb0026",
+      "phase": "Solid",
+      "image": "/images/elements/mt_real.svg",
+      "electron_configuration": "簡化配置 (109個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        17
+      ],
+      "orbitals": {
+        "simplified": 109
+      }
+    },
+    {
+      "name": "Darmstadtium",
+      "symbol": "Ds",
+      "number": 110,
+      "atomic_mass": 281,
+      "category": "transition metal",
+      "period": 7,
+      "group": 10,
+      "xpos": 10,
+      "ypos": 7,
+      "cpk-hex": "000000",
+      "phase": "Solid",
+      "image": "/images/elements/ds_real.svg",
+      "electron_configuration": "簡化配置 (110個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        18
+      ],
+      "orbitals": {
+        "simplified": 110
+      }
+    },
+    {
+      "name": "Roentgenium",
+      "symbol": "Rg",
+      "number": 111,
+      "atomic_mass": 280,
+      "category": "transition metal",
+      "period": 7,
+      "group": 11,
+      "xpos": 11,
+      "ypos": 7,
+      "cpk-hex": "000000",
+      "phase": "Solid",
+      "image": "/images/elements/rg_real.svg",
+      "electron_configuration": "簡化配置 (111個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        19
+      ],
+      "orbitals": {
+        "simplified": 111
+      }
+    },
+    {
+      "name": "Copernicium",
+      "symbol": "Cn",
+      "number": 112,
+      "atomic_mass": 285,
+      "category": "transition metal",
+      "period": 7,
+      "group": 12,
+      "xpos": 12,
+      "ypos": 7,
+      "cpk-hex": "000000",
+      "phase": "Solid",
+      "image": "/images/elements/cn_real.svg",
+      "electron_configuration": "簡化配置 (112個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        20
+      ],
+      "orbitals": {
+        "simplified": 112
+      }
+    },
+    {
+      "name": "Nihonium",
+      "symbol": "Nh",
+      "number": 113,
+      "atomic_mass": 284,
+      "category": "post-transition metal",
+      "period": 7,
+      "group": 13,
+      "xpos": 13,
+      "ypos": 7,
+      "cpk-hex": "000000",
+      "phase": "Solid",
+      "image": "/images/elements/nh_real.svg",
+      "electron_configuration": "簡化配置 (113個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        21
+      ],
+      "orbitals": {
+        "simplified": 113
+      }
+    },
+    {
+      "name": "Flerovium",
+      "symbol": "Fl",
+      "number": 114,
+      "atomic_mass": 289,
+      "category": "post-transition metal",
+      "period": 7,
+      "group": 14,
+      "xpos": 14,
+      "ypos": 7,
+      "cpk-hex": "000000",
+      "phase": "Solid",
+      "image": "/images/elements/fl_real.svg",
+      "electron_configuration": "簡化配置 (114個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        22
+      ],
+      "orbitals": {
+        "simplified": 114
+      }
+    },
+    {
+      "name": "Moscovium",
+      "symbol": "Mc",
+      "number": 115,
+      "atomic_mass": 288,
+      "category": "post-transition metal",
+      "period": 7,
+      "group": 15,
+      "xpos": 15,
+      "ypos": 7,
+      "cpk-hex": "000000",
+      "phase": "Solid",
+      "image": "/images/elements/mc_real.svg",
+      "electron_configuration": "簡化配置 (115個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        23
+      ],
+      "orbitals": {
+        "simplified": 115
+      }
+    },
+    {
+      "name": "Livermorium",
+      "symbol": "Lv",
+      "number": 116,
+      "atomic_mass": 293,
+      "category": "post-transition metal",
+      "period": 7,
+      "group": 16,
+      "xpos": 16,
+      "ypos": 7,
+      "cpk-hex": "000000",
+      "phase": "Solid",
+      "image": "/images/elements/lv_real.svg",
+      "electron_configuration": "簡化配置 (116個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        24
+      ],
+      "orbitals": {
+        "simplified": 116
+      }
+    },
+    {
+      "name": "Tennessine",
+      "symbol": "Ts",
+      "number": 117,
+      "atomic_mass": 294,
+      "category": "diatomic nonmetal",
+      "period": 7,
+      "group": 17,
+      "xpos": 17,
+      "ypos": 7,
+      "cpk-hex": "000000",
+      "phase": "Solid",
+      "image": "/images/elements/ts_real.svg",
+      "electron_configuration": "簡化配置 (117個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        25
+      ],
+      "orbitals": {
+        "simplified": 117
+      }
+    },
+    {
+      "name": "Oganesson",
+      "symbol": "Og",
+      "number": 118,
+      "atomic_mass": 294,
+      "category": "noble gas",
+      "period": 7,
+      "group": 18,
+      "xpos": 18,
+      "ypos": 7,
+      "cpk-hex": "000000",
+      "phase": "Solid",
+      "image": "/images/elements/og_real.svg",
+      "electron_configuration": "簡化配置 (118個電子)",
+      "electron_shells": [
+        2,
+        8,
+        18,
+        32,
+        32,
+        26
+      ],
+      "orbitals": {
+        "simplified": 118
+      }
+    }
   ]
 }

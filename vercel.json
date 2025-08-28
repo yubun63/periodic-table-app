@@ -1,6 +1,8 @@
 {
   "version": 2,
   "name": "periodic-table-app",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
   "builds": [
     {
       "src": "package.json",

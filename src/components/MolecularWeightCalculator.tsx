@@ -26,7 +26,7 @@ const MolecularWeightCalculator = () => {
   useState(() => {
     const fetchElements = async () => {
       try {
-        const response = await fetch('/mocks/periodic-table.json');
+        const response = await fetch('/api/mocks/periodic-table.json');
         const data: PeriodicTableData = await response.json();
         const elementsMap: { [key: string]: ElementData } = {};
         data.elements.forEach((el: any) => {

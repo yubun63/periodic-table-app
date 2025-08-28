@@ -1,0 +1,15 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#e00038"/>
+  <text x="150" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" 
+        text-anchor="middle" fill="#ffffff">Bh</text>
+  <text x="150" y="90" font-family="Arial, sans-serif" font-size="16" 
+        text-anchor="middle" fill="#ffffff">Bohrium</text>
+  <text x="150" y="120" font-family="Arial, sans-serif" font-size="14" 
+        text-anchor="middle" fill="#ffffff">原子序: 107</text>
+  <text x="150" y="140" font-family="Arial, sans-serif" font-size="14" 
+        text-anchor="middle" fill="#ffffff">原子量: 272</text>
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="12" 
+        text-anchor="middle" fill="#ffffff">transition metal</text>
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="12" 
+        text-anchor="middle" fill="#ffffff">Solid</text>
+</svg>
