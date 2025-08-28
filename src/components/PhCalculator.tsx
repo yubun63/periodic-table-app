@@ -57,11 +57,10 @@ const PhCalculator = () => {
           label="pH值"
           placeholder="輸入pH值 (0-14)"
           value={phValue}
-          onChange={setPhValue}
+          onChange={(value) => setPhValue(value as number | '')}
           min={0}
           max={14}
           step={0.01}
-          precision={2}
           error={error}
         />
 

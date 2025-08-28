@@ -134,20 +134,18 @@ const IdealGasCalculator = () => {
             label="壓力 (P)"
             placeholder="atm"
             value={pressure}
-            onChange={setPressure}
+            onChange={(value) => setPressure(value as number | '')}
             min={0}
             step={0.1}
-            precision={3}
             disabled={calculationType === 'pressure'}
           />
           <NumberInput
             label="體積 (V)"
             placeholder="L"
             value={volume}
-            onChange={setVolume}
+            onChange={(value) => setVolume(value as number | '')}
             min={0}
             step={0.1}
-            precision={3}
             disabled={calculationType === 'volume'}
           />
         </Group>
@@ -157,20 +155,18 @@ const IdealGasCalculator = () => {
             label="莫耳數 (n)"
             placeholder="mol"
             value={moles}
-            onChange={setMoles}
+            onChange={(value) => setMoles(value as number | '')}
             min={0}
             step={0.1}
-            precision={3}
             disabled={calculationType === 'moles'}
           />
           <NumberInput
             label="溫度 (T)"
             placeholder="K"
             value={temperature}
-            onChange={setTemperature}
+            onChange={(value) => setTemperature(value as number | '')}
             min={0}
             step={1}
-            precision={2}
             disabled={calculationType === 'temperature'}
           />
         </Group>

@@ -133,20 +133,18 @@ const DilutionCalculator = () => {
             label="初始濃度 (C₁)"
             placeholder="M"
             value={initialConcentration}
-            onChange={setInitialConcentration}
+            onChange={(value) => setInitialConcentration(value as number | '')}
             min={0}
             step={0.1}
-            precision={3}
             disabled={calculationType === 'initialConcentration'}
           />
           <NumberInput
             label="初始體積 (V₁)"
             placeholder="mL"
             value={initialVolume}
-            onChange={setInitialVolume}
+            onChange={(value) => setInitialVolume(value as number | '')}
             min={0}
             step={1}
-            precision={1}
             disabled={calculationType === 'initialVolume'}
           />
         </Group>
@@ -156,20 +154,18 @@ const DilutionCalculator = () => {
             label="最終濃度 (C₂)"
             placeholder="M"
             value={finalConcentration}
-            onChange={setFinalConcentration}
+            onChange={(value) => setFinalConcentration(value as number | '')}
             min={0}
             step={0.1}
-            precision={3}
             disabled={calculationType === 'finalConcentration'}
           />
           <NumberInput
             label="最終體積 (V₂)"
             placeholder="mL"
             value={finalVolume}
-            onChange={setFinalVolume}
+            onChange={(value) => setFinalVolume(value as number | '')}
             min={0}
             step={1}
-            precision={1}
             disabled={calculationType === 'finalVolume'}
           />
         </Group>
